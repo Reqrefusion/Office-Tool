@@ -12,7 +12,7 @@ Office Tool Plus, varolan Office'i değiştirebilir (Yalnızca Çalıştır'ı t
 
 [Resmi site](https://otp.landian.vip/)
 
-[İndirme sitesi] https://delivery.yuntu.dev/office-tool/) [Yuntu](https://www.yuntu.dev/) tarafından 
+[İndirme sitesi](https://delivery.yuntu.dev/office-tool/) [Yuntu](https://www.yuntu.dev/) tarafından 
 
 ## Teknik El Kitabı
 
