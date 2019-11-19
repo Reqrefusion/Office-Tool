@@ -1,6 +1,6 @@
 ﻿# Office Aracı Artı
 
-[⬅ Geri] (https://github.com/YerongAI/Office-Tool)
+[⬅ Geri](https://github.com/YerongAI/Office-Tool)
 
 Office Tool Plus, bir Office yönetimi, indirme ve yükleme yardımcısı aracıdır.
 
@@ -10,13 +10,13 @@ Office Tool Plus, varolan Office'i değiştirebilir (Yalnızca Çalıştır'ı t
 
 ## Office Tool Plus'ı İndirin
 
-[Resmi site] (https://otp.landian.vip/)
+[Resmi site](https://otp.landian.vip/)
 
-[İndirme sitesi] (https://delivery.yuntu.dev/office-tool/) [Yuntu] tarafından (https://www.yuntu.dev/)
+[İndirme sitesi] https://delivery.yuntu.dev/office-tool/) [Yuntu](https://www.yuntu.dev/) tarafından 
 
 ## Teknik El Kitabı
 
-[Yapılandırma seçeneklerinin açıklaması] (https://docs.microsoft.com/en-us/DeployOffice/configuration-options-for-the-office-2016-deployment-tool)
+[Yapılandırma seçeneklerinin açıklaması](https://docs.microsoft.com/en-us/DeployOffice/configuration-options-for-the-office-2016-deployment-tool)
 
 ## Hızlı Kılavuz
 
@@ -40,11 +40,11 @@ OSPP işleminin açıklamasını `` '' '' C: \ Program Files \ Microsoft Office 
 
 Ortak çalışanlar sayesinde ###
 
--Portekizce (Brezilya) / [Hélio de Souza] (https://sway.office.com/RVue6qySNJ2DzYrs?ref=Link)
+-Portekizce (Brezilya) / [Hélio de Souza](https://sway.office.com/RVue6qySNJ2DzYrs?ref=Link)
 -Polis (Polonya) / JakubDriver
--Korean (Kore) / [Jay Jang] (https://github.com/yaeyaya)
-Geleneksel Çin (Tayvan) / [Yi Chi] (https://github.com/chiyi4488)
--İngilizce (Amerika Birleşik Devletleri) / [Moedog] (https://prprpr.love)
+-Korean (Kore) / [Jay Jang](https://github.com/yaeyaya)
+Geleneksel Çin (Tayvan) / [Yi Chi](https://github.com/chiyi4488)
+-İngilizce (Amerika Birleşik Devletleri) / [Moedog](https://prprpr.love)
 
 ## Yerelleştirme (yerelleştirme) yardım isteği
 
