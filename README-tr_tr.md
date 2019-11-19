@@ -38,7 +38,7 @@ OSPP işleminin açıklamasını ````"C:\Program Files\Microsoft Office\Office16
 
 İşbirliğiniz için teşekkür ederiz
 
-## Thanks to the collaborators
+### Ortak çalışanlar sayesinde 
 
 - (ar-ps) العربية (الأراضي الفلسطينية) / Ibrahim
 - (de-de) Deutsch (Deutschland) / [Berny23](https://steamcommunity.com/id/Berny23)
