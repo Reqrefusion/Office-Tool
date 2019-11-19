@@ -4,7 +4,7 @@
 
 Office Tool Plus, bir Office yönetimi, indirme ve yükleme yardımcısı aracıdır.
 
-Office Tool Plus, Microsoft Office Dağıtım Aracı'nı oluşturur (https://docs.microsoft.com/en-us/DeployOffice/overview-of-the-office-2016-deployment-tool) Kolay Office dağıtımı sağlar.
+Office Tool Plus, Microsoft [Office Dağıtım Aracı](https://docs.microsoft.com/en-us/DeployOffice/overview-of-the-office-2016-deployment-tool)'nı oluşturur Kolay Office dağıtımı sağlar.
 
 Office Tool Plus, varolan Office'i değiştirebilir (Yalnızca Çalıştır'ı tıklatın), tek bir ürünü kaldırabilir veya dil paketi ekleyebilir.
 
