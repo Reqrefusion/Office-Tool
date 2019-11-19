@@ -26,7 +26,7 @@ Yüklemeden sonra Office'i etkinleştirmeniz gerekir.
 
 ## Başvurunun hukuki konuları
 
-Office Tool Plus, Microsoft Office Dağıtım Aracı'nı oluşturur (https://docs.microsoft.com/en-us/DeployOffice/overview-of-the-office-2016-deployment-tool) ve ekler Kullanıcılar için daha uygun bir Office dağıtım deneyimi sağlar.
+Office Tool Plus, Microsoft [Office Dağıtım Aracı](https://docs.microsoft.com/en-us/DeployOffice/overview-of-the-office-2016-deployment-tool)'nı oluşturur ve ekler Kullanıcılar için daha uygun bir Office dağıtım deneyimi sağlar.
 
 ** Tercümanlar için ek not: Çin dışındaki ülkelerdeki ve ülkelerdeki kullanıcılar, yasaları geçerli yasalara uygun olarak kullanmalıdır.
 
