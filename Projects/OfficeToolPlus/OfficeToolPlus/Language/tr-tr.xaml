@@ -17,17 +17,17 @@
     <sys:String x:Key="Dogfood">DevMain Channel (Dogfood)</sys:String>
     <!-- Products Name, you can translate them or delete them. If you delete them, they will show as English. -->
     <sys:String x:Key="HomeBusiness2019Retail">Office Ev ve İş 2019</sys:String>
-    <sys:String x:Key="HomeBusinessPicpRetail">Office Home and Business Premium</sys:String>
+    <sys:String x:Key="HomeBusinessPicpRetail">Office Ev ve İş Premium</sys:String>
     <sys:String x:Key="HomeBusinessRetail">Office Ev ve İş 2016</sys:String>
     <sys:String x:Key="HomeStudent2019Retail">Office Ev ve Öğrenci 2019</sys:String>
     <sys:String x:Key="HomeStudentRetail">Office Ev ve Öğrenci 2016</sys:String>
-    <sys:String x:Key="HomeStudentVNextRetail">Office Home and Student 2016</sys:String>
+    <sys:String x:Key="HomeStudentVNextRetail">Office Ev ve Öğrenci 2016</sys:String>
     <sys:String x:Key="MondoRetail">Office Mondo 2016 - Retail</sys:String>
     <sys:String x:Key="MondoVolume">Office Mondo 2016 - Volume</sys:String>
     <sys:String x:Key="O365BusinessRetail">Office 365 İş</sys:String>
     <sys:String x:Key="O365HomePremRetail">Office 365 Ev Premium</sys:String>
     <sys:String x:Key="O365ProPlusRetail">Office 365 ProPlus</sys:String>
-    <sys:String x:Key="O365SmallBusPremRetail">Office 365 Small İş Premium</sys:String>
+    <sys:String x:Key="O365SmallBusPremRetail">Office 365 Küçük İşletme Premium</sys:String>
     <sys:String x:Key="O365EduCloudRetail">Office 365</sys:String>
     <sys:String x:Key="Personal2019Retail">Office Bireysel 2019</sys:String>
     <sys:String x:Key="PersonalPipcRetail">Office Personal Premium</sys:String>
@@ -73,7 +73,7 @@
     <sys:String x:Key="Excel2019Volume">Excel 2019 - Volume</sys:String>
     <sys:String x:Key="ExcelRetail">Excel 2016 - Retail</sys:String>
     <sys:String x:Key="ExcelVolume">Excel 2016 - Volume</sys:String>
-    <sys:String x:Key="OneNoteFreeRetail">OneNote Home ve Öğrenci 2016 - Retail</sys:String>
+    <sys:String x:Key="OneNoteFreeRetail">OneNote Ev ve Öğrenci 2016 - Retail</sys:String>
     <sys:String x:Key="OneNoteRetail">OneNote 2016 - Retail</sys:String>
     <sys:String x:Key="OneNoteVolume">OneNote 2016 - Volume</sys:String>
     <sys:String x:Key="Outlook2019Retail">Outlook 2019 - Retail</sys:String>
@@ -93,8 +93,8 @@
     <sys:String x:Key="SkypeforBusinessEntry2019Retail">Skype Kurumsal Temel Sürüm 2019 - Retail</sys:String>
     <sys:String x:Key="SkypeforBusinessEntryRetail">Skype Kurumsal Temel Sürüm 2016 - Retail</sys:String>
     <sys:String x:Key="SkypeforBusinessRetail">Skype Kurumsal 2016 - Retail</sys:String>
-    <sys:String x:Key="SkypeforBusinessVolume">Skype for Business 2016 - Volume</sys:String>
-    <sys:String x:Key="SkypeServiceBypassRetail">Skype for Business 2016</sys:String>
+    <sys:String x:Key="SkypeforBusinessVolume">Skype for İş 2016 - Volume</sys:String>
+    <sys:String x:Key="SkypeServiceBypassRetail">Skype for İş 2016</sys:String>
     <sys:String x:Key="Word2019Retail">Word 2019 - Retail</sys:String>
     <sys:String x:Key="Word2019Volume">Word 2019 - Volume</sys:String>
     <sys:String x:Key="WordRetail">Word 2016 - Retail</sys:String>
@@ -109,11 +109,11 @@
     <sys:String x:Key="NoInf">Yok</sys:String>
     <sys:String x:Key="Normal">Normal</sys:String>
     <!-- Tabs -->
-    <sys:String x:Key="Home">Home</sys:String>
-    <sys:String x:Key="Deploy">Deploy</sys:String>
-    <sys:String x:Key="Activate">Activate</sys:String>
-    <sys:String x:Key="Toolbox">Toolbox</sys:String>
-    <sys:String x:Key="Settings">Settings</sys:String>
+    <sys:String x:Key="Home">Ana Sayfa</sys:String>
+    <sys:String x:Key="Deploy">Dağıtım</sys:String>
+    <sys:String x:Key="Activate">Etkinleştirme</sys:String>
+    <sys:String x:Key="Toolbox">Araç Çantası</sys:String>
+    <sys:String x:Key="Settings">Ayarlar</sys:String>
 
     <!-- Greetings -->
     <!-- Showed when app started. -->
@@ -131,28 +131,28 @@
     <!-- Home -->
     <sys:String x:Key="Homepage">Ana Sayfa</sys:String>
     <sys:String x:Key="Feedback">Geri Bildirim</sys:String>
-    <sys:String x:Key="Donate">Donate us</sys:String>
-    <sys:String x:Key="JoinGroup">Join groups</sys:String>
-    <sys:String x:Key="OfficeCenter">Office center</sys:String>
-    <sys:String x:Key="OfficeMFA">Office authentication</sys:String>
-    <sys:String x:Key="BuyOffice">Buy Office 365</sys:String>
+    <sys:String x:Key="Donate">Bağışda Bulun</sys:String>
+    <sys:String x:Key="JoinGroup">Gruba Katıl</sys:String>
+    <sys:String x:Key="OfficeCenter">Office merkezi</sys:String>
+    <sys:String x:Key="OfficeMFA">Office Kimlik doğrulama</sys:String>
+    <sys:String x:Key="BuyOffice">Office 365 Satın Al</sys:String>
     <sys:String x:Key="Announcement">Duyurular</sys:String>
-    <sys:String x:Key="FriendlyLink">Friendly links</sys:String>
-    <sys:String x:Key="ReacquireAnnouncement">Sunucu kullanılamıyor, tekrar denemek için buraya tıkla.</sys:String>
+    <sys:String x:Key="FriendlyLink">Dost Linkler</sys:String>
+    <sys:String x:Key="ReacquireAnnouncement">Sunucu kullanılamıyor, tekrar denemek için buraya tıklayın.</sys:String>
     <sys:String x:Key="SwitchServer">Sunucuları değiştirmek ve tekrar denemek için burayı tıklayın.</sys:String>
-    <sys:String x:Key="ServerUnavailable">Sunucu kullanılamıyor, ağ bağlantısını kontrol edin. Tekrar denemek için buraya tıkla.</sys:String>
+    <sys:String x:Key="ServerUnavailable">Sunucu kullanılamıyor, ağ bağlantısını kontrol edin. Tekrar denemek için buraya tıklayın.</sys:String>
     <!-- Installation File Page -->
-    <sys:String x:Key="InstallationFilesManage">Installation Files Manage</sys:String>
+    <sys:String x:Key="InstallationFilesManage">Yüklenen dosyaları yönet</sys:String>
     <sys:String x:Key="SelectInstallationPath">Seçili Dosyalar</sys:String>
-    <sys:String x:Key="DownloadInstallation">Download installation</sys:String>
+    <sys:String x:Key="DownloadInstallation">Kurulum Dosyasını İndir</sys:String>
     <sys:String x:Key="CreateISO">ISO dosyası oluştur</sys:String>
     <sys:String x:Key="DeleteInstallationFiles">Sil</sys:String>
     <sys:String x:Key="InstallationInf">Dosya Hakkında:</sys:String>
     <!-- Manage Page -->
-    <sys:String x:Key="ManageOfficeConfig">Office Config</sys:String>
+    <sys:String x:Key="ManageOfficeConfig">Office Yapılandırması</sys:String>
     <sys:String x:Key="ManageLauncher">Başlat</sys:String>
     <sys:String x:Key="ManageReadInfError">Okuma Hatası</sys:String>
-    <sys:String x:Key="ManageChannel">Güncelleme Kanallerı:</sys:String>
+    <sys:String x:Key="ManageChannel">Güncelleme Kanalları:</sys:String>
     <sys:String x:Key="ManageOwner">Sahibi:</sys:String>
     <sys:String x:Key="ManageSave">Kaydet</sys:String>
     <sys:String x:Key="ManageReload">Tekrar Yükle</sys:String>
@@ -171,7 +171,7 @@
     <sys:String x:Key="DownloadResume">Devam et</sys:String>
     <sys:String x:Key="DownloadCancel">İptal Et</sys:String>
     <sys:String x:Key="DownloadChannel">Kanal:</sys:String>
-    <sys:String x:Key="DownloadHistoricVersion">Historic version (optional):</sys:String>
+    <sys:String x:Key="DownloadHistoricVersion">Eski Tarihli Sürümler (isteğe bağlı):</sys:String>
     <sys:String x:Key="DownloadLanguage">Dil</sys:String>
     <sys:String x:Key="DownloadDownloadSettings">İndirme Ayarları</sys:String>
     <sys:String x:Key="DownloadDownloadWay">Motor:</sys:String>
@@ -187,18 +187,18 @@
     <!-- Deploy Page -->
     <!-- Product -->
     <sys:String x:Key="DeployProducts">Ürünler</sys:String>
-    <sys:String x:Key="DeployProductID">Product ID:</sys:String>
+    <sys:String x:Key="DeployProductID">Ürün ID:</sys:String>
     <sys:String x:Key="DeployApps">Uygulamalar:</sys:String>
-    <sys:String x:Key="DeployAddProduct">Add product</sys:String>
+    <sys:String x:Key="DeployAddProduct">Ürün Ekle</sys:String>
     <!-- Language -->
-    <sys:String x:Key="LanguagePack">Language Packages</sys:String>
-    <sys:String x:Key="LanguageType">Language package type: %1</sys:String>
-    <sys:String x:Key="Full">Full</sys:String>
-    <sys:String x:Key="Partial">Partial</sys:String>
-    <sys:String x:Key="PartialWithoutProofingTools">Partial without proofing tools</sys:String>
-    <sys:String x:Key="ProofingTools">Proofing tools</sys:String>
-    <sys:String x:Key="DeployLanguageSelection">Language:</sys:String>
-    <sys:String x:Key="DeployAddLanguagePackage">Add language package</sys:String>
+    <sys:String x:Key="LanguagePack">Dil Paketi</sys:String>
+    <sys:String x:Key="LanguageType">Dil Paketi Tipi: %1</sys:String>
+    <sys:String x:Key="Full">Tam</sys:String>
+    <sys:String x:Key="Partial">Kismi</sys:String>
+    <sys:String x:Key="PartialWithoutProofingTools">Yazım Denetleme Araçları Olmadan Kismi Paket</sys:String>
+    <sys:String x:Key="ProofingTools">Yazım Denetleme Araçları</sys:String>
+    <sys:String x:Key="DeployLanguageSelection">Dil:</sys:String>
+    <sys:String x:Key="DeployAddLanguagePackage">Dİl Paketi Ekle</sys:String>
     <!-- Office Version Info -->
     <sys:String x:Key="DownloadVersionInf">Versiyon</sys:String>
     <sys:String x:Key="DownloadCreatedTimeUTC">Oluşturulan zaman (UTC):</sys:String>
@@ -208,9 +208,9 @@
     <sys:String x:Key="DeployInstallWay">Yöntem:</sys:String>
     <sys:String x:Key="DeployInstallOnline">Çevrimiçi yükleme</sys:String>
     <sys:String x:Key="DeployInstallOffline">Çevrimdışı yükleme</sys:String>
-    <sys:String x:Key="DeployDownloadFirst">Install after download</sys:String>
-    <sys:String x:Key="DeployInstallationModule">Module:</sys:String>
-    <sys:String x:Key="DeployCreateShortcut">Create desktop shortcuts after installation.</sys:String>
+    <sys:String x:Key="DeployDownloadFirst">İndirdikten sonra kur</sys:String>
+    <sys:String x:Key="DeployInstallationModule">Modül:</sys:String>
+    <sys:String x:Key="DeployCreateShortcut">İndirmeden sonra masaüstü kısayolu oluştur.</sys:String>
     <!-- Advanced Settings -->
     <sys:String x:Key="DeployAdvanced">Gelişmiş</sys:String>
     <sys:String x:Key="DeployOrganizationName">Şirket mülkiyetini Office belgelerine ayarlamak için kuruluş adınızı girin.</sys:String>
@@ -220,8 +220,8 @@
     <sys:String x:Key="DeployDownloadPath">İndirme Dizini:</sys:String>
     <sys:String x:Key="DeploySourcePath">Kaynak Dizin:</sys:String>
     <sys:String x:Key="DeployDisplayLevel">Kurulum sırasında hiçbir arayüz gösterme</sys:String>
-    <sys:String x:Key="DeployAllowCDNFallback">Allow installer to fallback to Office CDN for missing languages.</sys:String>
-    <sys:String x:Key="DeployForceCloseApps">Shut down running Office applications.</sys:String>
+    <sys:String x:Key="DeployAllowCDNFallback">Eksik diller için Office CDN'ye bağlan.</sys:String>
+    <sys:String x:Key="DeployForceCloseApps">Çalışan Ofice uygulamalarını kapat.</sys:String>
     <sys:String x:Key="DeployPinIconToTaskbar">Windows 7, 8 ve 8.1'de simgeleri görev çubuğuna sabitle</sys:String>
     <!-- Log Settings -->
     <sys:String x:Key="DeployLogSettings">Log ayarları</sys:String>
@@ -232,8 +232,8 @@
     <sys:String x:Key="DeployDisableUpdate">Office güncellemelerini devre dışı bırak</sys:String>
     <sys:String x:Key="DeployEnableCOM">Configuration Manager'ı kullanarak güncellemeleri yönet</sys:String>
     <sys:String x:Key="DeployUpdatePath">Güncelleme Kaynağı:</sys:String>
-    <sys:String x:Key="DeployTargetVersion">Target version:</sys:String>
-    <sys:String x:Key="DeployUpdateDeadline">Update deadline:</sys:String>
+    <sys:String x:Key="DeployTargetVersion">Hedef Versiyon:</sys:String>
+    <sys:String x:Key="DeployUpdateDeadline">Güncelleme Son Tarihi:</sys:String>
     <!-- Upgrade Settings -->
     <sys:String x:Key="DeployUpgradeSettings">Güncelleme Ayarları</sys:String>
     <sys:String x:Key="DeployMigrateArch">Mimariyi taşı</sys:String>
@@ -243,15 +243,15 @@
     <sys:String x:Key="DeployIgnore">Yoksay:</sys:String>
     <!-- Activate Settings -->
     <sys:String x:Key="DeployActivateSettings">Aktivasyon ayarları</sys:String>
-    <sys:String x:Key="DeployAcceptEULA">Automatically accept the EULA</sys:String>
+    <sys:String x:Key="DeployAcceptEULA">EULA'yı Otamatik Kabul Et</sys:String>
     <sys:String x:Key="DeployAutoActivate">Otomatik Aktivasyon</sys:String>
     <sys:String x:Key="DeploySCL">Paylaşılan Bilgisayar Lisansı (SCL)</sys:String>
     <sys:String x:Key="DeploySCLCacheOverride">SCL Önbelleğini Geçersiz Kıl</sys:String>
     <sys:String x:Key="DeploySCLCOD">SCL Önbellek Dizini:</sys:String>
     <!-- Deploy Page Button -->
     <sys:String x:Key="StartDeploy">Deploy Office</sys:String>
-    <sys:String x:Key="UninstallSelectedProduct">Uninstall selected product(s)/language(s)</sys:String>
-    <sys:String x:Key="UninstallAllProducts">Uninstall all products/languages</sys:String>
+    <sys:String x:Key="UninstallSelectedProduct">Seçilen Dil(ler)i ve/veya Ürün(ler)i Kaldır</sys:String>
+    <sys:String x:Key="UninstallAllProducts">Tüm Dileri/Ürünleri Kaldır</sys:String>
     <sys:String x:Key="DeployViewCode">Kodu Görüntüle</sys:String>
     <sys:String x:Key="DeploySaveAsXML">Profili XML dosyası olarak kaydet</sys:String>
     <sys:String x:Key="DeploySelectXML">XML dosyasını seç</sys:String>
@@ -275,7 +275,7 @@
     <!-- KMS -->
     <sys:String x:Key="ActivateKMSManage">KMS Yönetimi</sys:String>
     <sys:String x:Key="ActivateKMSAddress">KMS adresi</sys:String>
-    <sys:String x:Key="ActivateKMSPort">Liman (opsiyonel)</sys:String>
+    <sys:String x:Key="ActivateKMSPort">Liman (isteğe bağlı)</sys:String>
     <sys:String x:Key="ActivateCheckKMS">KMS durumunu kontrol et</sys:String>
     <sys:String x:Key="ActivateSetKMS">Sunucu adresini ayarla</sys:String>
     <sys:String x:Key="ActivateSetPort">Sunucu portunu ayarla</sys:String>
@@ -288,8 +288,8 @@
     <sys:String x:Key="ActivateViewKMSHistory">KMS istemcisi etkinleştirme geçmişini görüntüle.</sys:String>
     <!-- Toolbox Page -->
     <sys:String x:Key="ToolboxRepair">Onar</sys:String>
-    <sys:String x:Key="ToolboxRemoveOffice">Force Remove Office</sys:String>
-    <sys:String x:Key="ToolboxRODescription">If your Office can't be uninstalled normally, you can try to force remove by using tools/scripts.</sys:String>
+    <sys:String x:Key="ToolboxRemoveOffice">Ofice'yi kaldırmaya zorla</sys:String>
+    <sys:String x:Key="ToolboxRODescription">Office'i başarıyla kaldıramazsanız, kaldırmayı zorlamak için bir araç / komut dosyası kullanabilirsiniz.</sys:String>
     <sys:String x:Key="ToolboxRepairOfficeDocumentIcon">Office uygulamalarının simgelerini onar</sys:String>
     <sys:String x:Key="ToolboxRepairODIDescription">Office belgeleri için simge düzgün görüntülenmiyorsa, kayıt defterini onarmayı deneyebilirsiniz. Onarım tamamlandıktan sonra, Hızlı Onarım için Office'i kullanmanız gerekir.</sys:String>
     <sys:String x:Key="ToolboxRepairActivationFailed">Office aktivasyonunu onar</sys:String>
@@ -301,14 +301,14 @@
     <sys:String x:Key="ToolboxRepairInstallation">Office'in yüklenemediği bir sorunu düzelt</sys:String>
     <sys:String x:Key="ToolboxRepairInstallationDescription">Office'i kurarken bazı bilinmeyen hatalarla karşılaşırsanız, kayıt defterini onarmayı denemek için bu yöntemi kullanabilirsiniz. Not: Ciddi hasarlı bazı sistemlerde, düzeltme hiçbir rol oynayabilir. Onardıktan sonra hala yüklenemiyorsa, Windows'u yeniden yüklemeniz gerekebilir.</sys:String>
     <!-- Convert Document Page -->
-    <sys:String x:Key="ConvertDocuments">Convert Documents</sys:String>
+    <sys:String x:Key="ConvertDocuments">Belgeleri Dönüştür</sys:String>
     <sys:String x:Key="ConvertSourceFormat">Girdi Formatı:</sys:String>
     <sys:String x:Key="ConvertOutputFormat">Çıktı Formatı:</sys:String>
     <sys:String x:Key="ConvertSelectFile">Dosya seç</sys:String>
-    <sys:String x:Key="ConvertInterval">Operation interval (ms):</sys:String>
-    <sys:String x:Key="ConvertTimeout">Timeout (min):</sys:String>
+    <sys:String x:Key="ConvertInterval">Çalışma aralığı (ms):</sys:String>
+    <sys:String x:Key="ConvertTimeout">Zaman aşımı (min):</sys:String>
     <!-- Settings Page -->
-    <sys:String x:Key="GettingInfoFromServer">Getting information from server.</sys:String>
+    <sys:String x:Key="GettingInfoFromServer">Sunucudan Bilgi Al.</sys:String>
     <sys:String x:Key="GeneralSettings">Genel ayarlar</sys:String>
     <sys:String x:Key="SettingsNone">Hiçbir şey yapma</sys:String>
     <sys:String x:Key="SettingsAD">İndirdikten sonra:</sys:String>
@@ -330,14 +330,14 @@
     <sys:String x:Key="SettingsNotification">Bildirim ayarları</sys:String>
     <sys:String x:Key="EnableNotification">Bildirimleri etkinleştir</sys:String>
     <!-- About Page -->
-    <sys:String x:Key="About">About</sys:String>
+    <sys:String x:Key="About">Hakında</sys:String>
     <sys:String x:Key="AppInf">Uygulama bilgileri</sys:String>
     <sys:String x:Key="UpdateDate">Güncelleme tarihi:</sys:String>
     <sys:String x:Key="Creator">Office Dağıtım Aracına dayanan Yerong tarafından geliştirilmiştir.</sys:String>
     <sys:String x:Key="Copyright">Telif Hakkı © 2012-%year% 蓝点网 Tüm Hakları Saklıdır.</sys:String>
     <sys:String x:Key="ServerProvider">Sunucu sağlayıcı</sys:String>
     <sys:String x:Key="Translator">Çevirmen</sys:String>
-    <sys:String x:Key="BackgroundImageSource">Background Image Source</sys:String>
+    <sys:String x:Key="BackgroundImageSource">Arka plan resmi kaynağı</sys:String>
 
     <!-- Message Window string -->
     <sys:String x:Key="MsgNormalTitle">İleti</sys:String>
@@ -356,7 +356,7 @@
     <sys:String x:Key="MsgExitQuestion">OTP çalışıyor, çıkmak istiyor musunuz?</sys:String>
     <sys:String x:Key="MsgADIQuestion">Kapatacaksınız veya yeniden başlayacaksınız, emin misiniz?</sys:String>
     <sys:String x:Key="MsgNetFrameworkError">Uygulama yüklenemiyor, şimdi .Net Framework 4.6.1 kurulsun mu?</sys:String>
-    <sys:String x:Key="MsgUpdateAvailable">Update available. Download now?</sys:String>
+    <sys:String x:Key="MsgUpdateAvailable">Güncelleme mevcut. Şimdi İndirin?</sys:String>
     <sys:String x:Key="MsgUpdateError">Güncelleme başarısız oldu</sys:String>
     <sys:String x:Key="MsgCheckHashFailed">Checksum hash değeri uyuşmadı.</sys:String>
     <!-- Message about Installation Files -->
@@ -365,17 +365,17 @@
     <sys:String x:Key="MsgInstallationLosedTitle">Kurulum dosyası / dosyaları bulunamıyor</sys:String>
     <sys:String x:Key="MsgSelectInstallationFiles">Office yükleme dosyalarının konumunu seçin.</sys:String>
     <sys:String x:Key="MsgDeleteInstallationFiles">Kurulum dosyalarını sil?</sys:String>
-    <sys:String x:Key="MsgDeleteLanguageFiles">Delete the %language%?</sys:String>
+    <sys:String x:Key="MsgDeleteLanguageFiles">%language% sil?</sys:String>
 
     <sys:String x:Key="MsgWriteInfError">Bilgi kaydedilemedi.</sys:String>
     <sys:String x:Key="MsgCleanOffice">Office temizlensin mi? Başladıktan sonra bu işlem durdurulamaz.</sys:String>
     <sys:String x:Key="MsgRunScript">Betiğin duraklatılmasını veya kapanmasını önlemek için yürütme sırasında komut dosyasını değiştirmeyin. Devam etmek istiyor musunuz?</sys:String>
     <!-- Message about Download -->
     <sys:String x:Key="MsgDownloadVerError">Sürüm bilgisi alınamadı. Numara / Kanal sürümünün doğru ve ağa bağlı olduğundan emin olun.</sys:String>
-    <sys:String x:Key="MsgSetupConfigError">Office Deployment Tool doesn't support the current architecture mode. Please modify the configuration and try again.</sys:String>
+    <sys:String x:Key="MsgSetupConfigError">"Office Deployment Tool" geçerli mimari modunu desteklemiyor. Konfigürasyonu değiştirin ve tekrar deneyin.</sys:String>
     <sys:String x:Key="MsgInstallationFileExist">%filename% dosyası zaten var, bu dosyayı tekrar indirmek ister misiniz?</sys:String>
     <sys:String x:Key="MsgDownloadSuccessful">Kurulum dosyaları indirildi.</sys:String>
-    <sys:String x:Key="MsgCreateISOError">Can't find Office installation in Office Tool Plus root directory, please download installation first! Or move installation to working path.</sys:String>
+    <sys:String x:Key="MsgCreateISOError">Office yükleyicisi “Office Tool Plus” dizinini bulunamadı. İlk indirme ve kurulum! Veya kurulumu bir çalışma yoluna taşıyın.</sys:String>
     <!-- Message about Thunder -->
     <sys:String x:Key="MsgDownloadErrorTitle">İndirme hatası</sys:String>
     <sys:String x:Key="MsgThunderStartError">Görev başlatılamadı.</sys:String>
@@ -403,11 +403,11 @@
     <sys:String x:Key="MsgSaveFileSuccessful">Dosya kaydedildi.</sys:String>
     <sys:String x:Key="MsgInstallConfigurationQuestion">Ayrıntılı yapılandırma kodu görüntüleniyor, yukarıdaki temel yapılandırma doğru mu?</sys:String>
     <sys:String x:Key="MsgInstallConfiguration">Ofis yükleme yapılandırması</sys:String>
-    <sys:String x:Key="MsgArchitectureError">Office (%architecture%) couldn't be installed because you have the %currentArchitecture% Office installed on your computer:&#x000A;&#x000A;%currentProduct%&#x000A;32 bit and 64 bit versions of Office programs don't get along, so you can only have one type installed at a time. Please try installing the %currentArchitecture% version of Office instead, or uninstall your other %currentArchitecture% Office programs and try this installation again.</sys:String>
-    <sys:String x:Key="MsgNotificationAboutModule">Note: You choose to install Office using the Office Tool Plus module. In this mode, only the basic settings will be applied and all advanced settings will not take effect. To use advanced settings, use the Office Deployment Tool module. Continue?</sys:String>
-    <sys:String x:Key="MsgProductsError">Office couldn't be installed because you selected the product: &#x000A;&#x000A;%product%&#x000A;&#x000A;Office Deployment Tool doesn't support installing the product. To install the product, change the module to Office Tool Plus in install settings, or select another product and try your installation again.</sys:String>
-    <sys:String x:Key="MsgAddProductError">Office couldn't be installed, the following products can't coexist:&#x000A;&#x000A;Selected products:&#x000A;%selectedProduct%&#x000A;Installed products:&#x000A;%product%&#x000A;Please uninstall the installed products, or select another product to install.</sys:String>
-    <sys:String x:Key="MsgChannelError">Office couldn't be installed. The following product can't be installed on the selected channel: &#x000A;&#x000A;%selectedProduct%&#x000A;&#x000A;Please change the channel, or select another product and try again. If you are using offline installation, please make sure you've downloaded the Office installation files from the correct channel.</sys:String>
+    <sys:String x:Key="MsgArchitectureError">Office (%architecture%) mimarisi yüklenemedi çünkü bilgisayarınızda %currentArchitecture% Office mimarisi kurulu:&#x000A;&#x000A;%currentProduct%&#x000A;Office programlarının 32 bit ve 64 bit sürümlerinden aynı anda yalnızca biri yüklü olabilir. Lütfen %currentArchitecture% mimarisine göre bir Office versiyonu seçin, veya %currentArchitecture% mimarisine sahip Office'yi kaldırıp tekrar deneyin.</sys:String>
+    <sys:String x:Key="MsgNotificationAboutModule">Not: Office aracını Office Tool Plus modülünü kullanarak yüklemeyi seçersiniz. Bu modda, yalnızca temel ayarlar uygulanır ve gelişmiş ayarlar geçerli olmaz. Gelişmiş ayarları kullanmak için Office Deployment Tool modülünü kullanın. Devam etmek istiyor musunuz?</sys:String>
+    <sys:String x:Key="MsgProductsError">Seçtiğiniz ürün nedeniyle Office yüklenemedi: &#x000A;&#x000A;%product%&#x000A;&#x000A;Office Dağıtım Aracı bu ürünün yüklenmesini desteklemez. Ürünü yüklemek için, yükleme ayarlarında modülü Office Tool Plus olarak değiştirin veya başka bir ürün seçin ve tekrar deneyin.</sys:String>
+    <sys:String x:Key="MsgAddProductError">Office yüklenemedi, aşağıdaki ürünler bir arada bulunamaz: &#x000A;&#x000A;Seçili Ürün:&#x000A;%selectedProduct%&#x000A; Installed products:&#x000A;%product%&#x000A;Lütfen yüklü ürünleri kaldırın veya yüklemek için başka bir ürün seçin.</sys:String>
+    <sys:String x:Key="MsgChannelError">Office yüklenemedi. Aşağıdaki ürün seçilen kanala kurulamaz: &#x000A;&#x000A;%selectedProduct%&#x000A;&#x000A; Lütfen kanalı değiştirin veya başka bir ürün seçin ve tekrar deneyin. Çevrimdışı yükleme kullanıyorsanız, lütfen Office yükleme dosyalarını doğru kanaldan indirdiğinizden emin olun.</sys:String>
     <!-- Message about Activate Office -->
     <sys:String x:Key="MsgSelectLicensesPath">Lisansları içeren bir klasör seçin.</sys:String>
     <sys:String x:Key="MsgInstallLicenses">Bir Office lisansı yükledikten sonra Office'te etkinleştirme bilgilerini göremeyebilirsiniz, ancak bilgileri görüntüleyebilir veya Office'i OTP üzerinden etkinleştirebilirsiniz. Devam etmek istiyor musunuz?</sys:String>
@@ -417,22 +417,22 @@
     <sys:String x:Key="MsgClearKeys">Tüm anahtarlar kaldırılsın mı?</sys:String>
 
     <!-- Message about Toast Bar -->
-    <sys:String x:Key="ToastUpdateDownloading">Downloading update, # completed.</sys:String>
+    <sys:String x:Key="ToastUpdateDownloading">Güncellemenin indirilmesi, # tamamlandı.</sys:String>
     <sys:String x:Key="ToastUpdateAvailable">Yeni sürüm mevcut ancak ISO modunda güncellenemiyor. Güncellemek istiyorsanız lütfen OTP'yi başka bir klasöre kopyalayın.</sys:String>
     <sys:String x:Key="ToastInstallationNone">Herhangi bir yükleme dosyası bulunamadı, lütfen başka bir klasörü yeniden indirin veya başka bir klasör seçin.</sys:String>
     <sys:String x:Key="ToastInstallationError">Bazı yükleme dosyaları eksik, lütfen yeniden indirin veya başka bir klasör seçin.</sys:String>
     <sys:String x:Key="ToastSaveSuccessful">Kaydedildi.</sys:String>
-    <sys:String x:Key="ToastSelectionError">Please add at least one product or language. Or select a product to configure.</sys:String>
-    <sys:String x:Key="ToastUninstallLanguagePackError">You can't uninstall all language packs that are full types.</sys:String>
+    <sys:String x:Key="ToastSelectionError">Lütfen en az bir ürün veya dil ekleyin. Veya yapılandırılacak bir ürün seçin.</sys:String>
+    <sys:String x:Key="ToastUninstallLanguagePackError">Tam tür olan tüm dil paketlerini kaldıramazsınız.</sys:String>
     <sys:String x:Key="ToastNoInstallationFiles">Kurulum dosyası bulunamadı.</sys:String>
     <sys:String x:Key="ToastAllExist">Dosyayı indirmeye gerek yok, tüm dosyalar mevcut.</sys:String>
-    <sys:String x:Key="ToastDownloadError">Unable to get version information, please try again or switch engine to Office Deployment Tool.</sys:String>
+    <sys:String x:Key="ToastDownloadError">Sürüm bilgileri alınamıyor, lütfen tekrar deneyin veya motoru Office Dağıtım Aracı olarak değiştirin.</sys:String>
     <sys:String x:Key="ToastSetProxySuccessfully">Proxy'yi başarıyla ayarlandı.</sys:String>
     <sys:String x:Key="ToastSetProxyFailed">Proxy ayarlanamadı!</sys:String>
-    <sys:String x:Key="ToastSetupWorking">Office Deployment Tool is running, please wait for execution to finished and retry.</sys:String>
-    <sys:String x:Key="ToastAutomicStartedSetup">Office Deployment Tool has started automatically.</sys:String>
-    <sys:String x:Key="ToastSetupExitedNormally">Office Deployment Tool exited normally.</sys:String>
-    <sys:String x:Key="ToastSetupExitedWithError">Error occurred exiting the Office Deployment Tool.</sys:String>
+    <sys:String x:Key="ToastSetupWorking">Office Dağıtım Aracı çalışıyor, lütfen yürütmenin tamamlanmasını bekleyin ve tekrar deneyin.</sys:String>
+    <sys:String x:Key="ToastAutomicStartedSetup">Office Dağıtım Aracı otomatik olarak başlatıldı.</sys:String>
+    <sys:String x:Key="ToastSetupExitedNormally">Office Dağıtım Aracı'ndan normal şekilde çıkıldı.</sys:String>
+    <sys:String x:Key="ToastSetupExitedWithError">Office Dağıtım Aracı'ndan çıkarken hata oluştu.</sys:String>
     <sys:String x:Key="ToastLicensesInstallError">Seçilen dizinde lisans dosyası bulunamadı.</sys:String>
     <sys:String x:Key="ToastLicensesInstallSuccess">Yüklenen lisanslar.</sys:String>
     <sys:String x:Key="ToastInputError">Hatalı girdi.</sys:String>
@@ -450,7 +450,7 @@
     <sys:String x:Key="ToolTipForceCloseApps">TRUE olarak ayarlandığında, bu, Office kurulumlarını engelleyen tüm uygulamaların kapatılmasını zorlar. Veri kaybı oluşabilir.</sys:String>
     <sys:String x:Key="ToolTipDisableUpdate">Office güncellemeleri kontrol etmiyor.</sys:String>
     <sys:String x:Key="ToolTipKey">Giriş kurulum anahtarını veya kaldırılacak anahtarın son 5 karakterini girin.</sys:String>
-    <sys:String x:Key="ToolTipTranslators">Translators provides localized translations, announcements and descriptions. If you feel that the content is inappropriate or the content violates regulations/laws, please report to us!</sys:String>
+    <sys:String x:Key="ToolTipTranslators">Çevirmenler yerelleştirilmiş çeviriler, duyurular ve açıklamalar sunar. İçeriğin uygunsuz olduğunu veya içeriğin yönetmelikleri / yasaları ihlal ettiğini düşünüyorsanız, lütfen bize bildirin!</sys:String>
 
     <!-- Text about Textbox, notice to control the string length. -->
     <sys:String x:Key="TextBlockMAK">Çoklu Etkinleştirme Anahtarı (MAK).</sys:String>

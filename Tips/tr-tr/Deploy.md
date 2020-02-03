@@ -100,7 +100,7 @@ Yükleme dosyaları arasında Office, Visio ve Project bulunur: Office 2019 Ente
 
 Office yükleme dosyalarını indirmek için mimariyi, kanalı ve dili, varsayılan olarak sistem diliyle eşleşecek şekilde yapılandırın. Office Tool Plus varsayılan olarak ayarlanmıştır ve yükleme dosyalarını doğrudan indirmeye başlayabilirsiniz.
 
-! [Kurulum Dosyasını İndir] (https://coolhub.top/wp-content/uploads/2019/11/QQScreenshot 20191107202304-1.png)
+! [Kurulum Dosyasını İndir] (https://coolhub.top/wp-content/uploads/2019/11/QQ截图20191107202304-1.png)
 
 ### Daha fazla bilgi için, lütfen aşağıdaki web sitesini ziyaret edin
 

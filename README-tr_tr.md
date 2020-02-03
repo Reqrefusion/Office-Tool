@@ -2,11 +2,11 @@
 
 [⬅ Geri](https://github.com/YerongAI/Office-Tool)
 
-Office Tool Plus, bir Office yönetimi, indirme ve yükleme yardımcısı aracıdır.
+Office Tool Plus, Office için yönetim, indirme ve yükleme aracıdır.
 
 Office Tool Plus, Microsoft [Office Dağıtım Aracı](https://docs.microsoft.com/en-us/DeployOffice/overview-of-the-office-2016-deployment-tool)'nı oluşturur Kolay Office dağıtımı sağlar.
 
-Office Tool Plus, varolan Office'i değiştirebilir (Yalnızca Çalıştır'ı tıklatın), tek bir ürünü kaldırabilir veya dil paketi ekleyebilir.
+Office Tool Plus, varolan Office'i değiştirebilir (Yalnızca Çalıştır'ı tıklatın), ürünü kaldırabilir veya dil paketi ekleyebilir.
 
 ## Office Tool Plus'ı İndirin
 
@@ -14,7 +14,7 @@ Office Tool Plus, varolan Office'i değiştirebilir (Yalnızca Çalıştır'ı t
 
 [İndirme sitesi](https://delivery.yuntu.dev/office-tool/) [Yuntu](https://www.yuntu.dev/) tarafından 
 
-## Teknik El Kitabı
+## El Kitabı
 
 [Yapılandırma seçeneklerinin açıklaması](https://docs.microsoft.com/en-us/DeployOffice/configuration-options-for-the-office-2016-deployment-tool)
 
@@ -26,13 +26,12 @@ Yüklemeden sonra Office'i etkinleştirmeniz gerekir.
 
 ## Başvurunun hukuki konuları
 
-Office Tool Plus, Microsoft [Office Dağıtım Aracı](https://docs.microsoft.com/en-us/DeployOffice/overview-of-the-office-2016-deployment-tool)'nı oluşturur ve ekler Kullanıcılar için daha uygun bir Office dağıtım deneyimi sağlar.
+Office Tool Plus, Microsoft [Office Dağıtım Aracı](https://docs.microsoft.com/en-us/DeployOffice/overview-of-the-office-2016-deployment-tool)'nı oluşturur ve ekler Kullanıcılar için daha uygun bir Office dağıtım deneyimi sunar.
 
-** Tercümanlar için ek not: Çin dışındaki ülkelerdeki ve ülkelerdeki kullanıcılar, yasaları geçerli yasalara uygun olarak kullanmalıdır.
 
 ### Aktivasyon modülüyle ilgili notlar
 
-Etkinleştirme modülü, Microsoft'un ospp.vbs (Office Yazılımı Koruma Platformu) tabanlıdır ve tüm doğrulama eylemleri ospp.vbs adresine gider. Kullanıcıların OSPP'yi daha net bir şekilde anlamalarını sağlamak için haritayı çevirme (zh-ch, zh-tw).
+Etkinleştirme modülü, Microsoft'un ospp.vbs (Office Yazılımı Koruma Platformu) tabanlıdır ve tüm doğrulama eylemleri ospp.vbs adresine gider. Kullanıcıların OSPP'yi daha net bir şekilde anlamalarını sağlamak için çeviri yapılmaktadır (zh-ch, zh-tw).
 
 OSPP işleminin açıklamasını ````"C:\Program Files\Microsoft Office\Office16\OSPP.HTM"```` (Ofice'nin yüklü olmasını gerektirir.).
 
@@ -60,24 +59,24 @@ OSPP işleminin açıklamasını ````"C:\Program Files\Microsoft Office\Office16
 
 Herkes uygulamanın yerelleştirilmesine aşağıdaki şekilde katılabilir.
 
-1.Bu depoyu araştır
+1. Bu repository için Fork işlemini uygula
 
-2. (Örnek) `` zh-cn.xaml '' dosyasını çevirin ve `` zh-tw.xaml '' olarak kaydedin.
+2.  ````zh-cn.xaml```` dosyasını çevirin ve ````zh-tw.xaml```` olarak kaydedin.
 
-3. (Örnek) `` OfficeToolPlus / Language / zh-tw.xaml '' doğru yola kopyalayın
+3.  OfficeToolPlus/Language/zh-tw.xaml bu şekilde doğru yola kopyalayın
 
-4. Çekme İsteği Yap
+4. Pull Request yapın
 
 ### Çeviri Dosyası Testi
 
-1. Çeviri dosyasını `` `` D: \ Date \ zh-cn.xaml```` ile aynı yola kaydedin
+1. Çeviri dosyasını ```` D: \ Date \ zh-cn.xaml```` ile aynı yola kaydedin
 2. Office Tool Plus'ı çalıştırın
-3. Konfigürasyon sayfasına gidin ve `` Yerelleştirme dosyasını yükle '' üzerine tıklayın.
-4. Kaydedilen çeviri dosyasını seçin
+3. Konfigürasyon sayfasına gidin ve ````  Yerelleştirme dosyasını yükle ````  üzerine tıklayın.
+4. Çeviri dosyanızı seçin
 
-Sorun yoksa, uygulama seçilen dil kaynak dosyasını yükleyecektir. Yeni bir çeviri eklemek, Office Tool Plus'ın sunucuya bağlanamadığını belirten bir mesaj görüntüleyebilir, ancak bu normaldir. Çeviriyi kontrol ettikten sonra yeni bir sunucu kuracağız.
+Sorun yoksa, uygulama seçilen dil dosyasını yükleyecektir. Yeni bir çeviri eklemek, Office Tool Plus'ın sunucuya bağlanamadığını belirten bir mesaj görüntüleyebilir, ancak bu normaldir. 
 
 ### daha fazla bilgi
 
-Her tercüman için bir Yönetici uygulaması sağlıyoruz. Bu uygulama tercümanların duyurular, duvar kağıtları ve açıklamalar gibi bilgileri kolayca düzenlemelerine olanak sağlar.
-** [email] adresinden başvurabilirsiniz (mailto: yerong@coolhub.top).
+````Her tercüman için bir Yönetici uygulaması sağlıyoruz. Bu uygulama tercümanların duyurular, duvar kağıtları ve açıklamalar gibi bilgileri kolayca düzenlemelerine olanak sağlar. Bunun için bana````
+[mail gönderin.](mailto:yerong@coolhub.top) 

@@ -2,7 +2,7 @@
 
 Bu araçla etkinleştiremezseniz, önce işleminizin doğru olup olmadığını kontrol edin Aşağıdaki talimatlar Office'in etkinleştirme adımlarını açıklar.Eğer işleminizin doğru olduğundan eminseniz ancak Office'i etkinleştiremiyorsanız, herhangi bir sorun için sistemi kontrol etmeniz önerilir. Etkinleştirme başarılı olduktan sonra, Office'in tüm işlevleri normal bir şekilde kullanılabilir, Microsoft hesabına giriş yapabilirsiniz.
 
-## dizin
+## Dizin
 
 ---
 
@@ -62,7 +62,7 @@ Başarılı olduğunda, sunucunun normal olarak sunucuya bağlanabileceği ve Et
 
 Test bir sonuç döndürmezse ya da döndürülen sonuç eksikse, bu KMS sunucusunda veya ağında bir sorun olabilir.
 
-## Query Office aktivasyon durumu
+## Office aktivasyon durumu
 
 ---
 
@@ -79,14 +79,14 @@ Yüklü anahtarın lisansı hakkında bilgi sorgulamak için * Etkinleştirme bi
 
 İstenmeyen yetkilendirmenin son beş basamaklı anahtarını kopyalayın, anahtar kutusuna yapıştırın ve etkinleştirme bilgilerini silmek için düğme menüsünde Anahtar Kaldır'ı seçin.
 
-! [Ürün Anahtarını Kaldır] (https://coolhub.top/wp-content/uploads/2019/11/Uninstall Product Key.png)
+! [Ürün Anahtarını Kaldır] (https://coolhub.top/wp-content/uploads/2019/11/卸载产品密钥.png)
 
 ### Office Ürün Anahtarlarını Temizle
 
 Anahtar yönetiminin düğme menüsünde, tüm anahtarlar kaldırılabilir.
 Tüm anahtarları kaldırdıktan sonra, Office etkin olmayan durumuna döner ve Office'i yeniden etkinleştirmeniz gerekir.
 
-### Clear Office lisansı
+### Office lisansın Temizle
 
 Sertifika yönetiminin düğme menüsünden tüm lisanslar silinebilir.
 Lisansınızı temizledikten sonra, bir Office uygulamasını ilk açtığınızda, varsayılan lisansı yeniden yüklemek için düzeltmeniz gerekir.
@@ -94,7 +94,7 @@ Ya da lisansı manuel olarak kurabilir ve kurulumdan sonra Office'i yeniden etki
 
 ** Etkinleştirme durumunu silmek, anahtarı ve sertifikayı birlikte siler. **
 
-## Yaygın hatalar ve çözümler
+## Yaygın hatalar ve çözümleri
 
 ---
 
@@ -144,7 +144,7 @@ KMS ile etkinleştirme, KMS sunucu adresinin yapılandırılmasını gerektirir,
 
 Daha fazla bilgi için, lütfen [Office 2019 ve Office 2016 için KMS ve Active Directory Etkinleştirmesi için GVLK] adresini ziyaret edin (https://docs.microsoft.com/en-us/DeployOffice/vlactivation/gvlks)
 
-`Txt
+```txt
 Office 2019 GVLK
 
 Office Pro Plus 2019 NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP
@@ -178,7 +178,7 @@ PowerPoint 2016 J7MQP-HNJ4Y-WJ7YM-PFYGF-BY6C6
 Yayımcı 2016 F47MM-N3XJP-TQXJ9-BP99D-8K837
 İşletmeler için Skype 869NQ-FJ69K-466HW-QYCP2-DDBV6
 Kelime 2016 WXY84-JN2Q9-RBCCQ-3Q3J3-3PFJ6
-`
+```
 
 ### Office 365 Pro Plus Normal Anahtar
 

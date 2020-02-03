@@ -24,7 +24,7 @@ Bazı özel nedenlerden dolayı, bu işlevin dönüşüm oranı çok yüksek de�
 
 ### Word
 
-`
+```
 Docx Word belgesi
 Docm makro etkin Word belgesi
 Doc Word 97-2003 belgesi
@@ -42,11 +42,11 @@ Xml Word XML belgesi
 Xml Word 2003 belgesi
 Docx Sıkı Açık XML Belgesi
 Tek OpenDocument metni
-`
+```
 
 ### PowerPoint
 
-`
+```
 Pptx PowerPoint sunumu
 Pptm makro etkin PowerPoint sunumu
 Ppt PowerPoint 97-2003 sunum
@@ -75,11 +75,10 @@ RTF anahat / RTF dosyası
 Pptx PowerPoint resmi sunumu
 Pptx Sıkı Açık XML sunumu
 Odp OpenDocument sunumu
-`
-
+```
 ### Excel
 
-`
+```
 Xlsx Excel çalışma kitabı
 Xlsm Excel makro etkin çalışma kitabı
 Xlsb Excel ikili çalışma kitabı
@@ -105,3 +104,4 @@ Pdf PDF belgesi
 Xps XPS belgeleri
 Xlsx Katı Açık XML Elektronik Tablosu
 Ods OpenDocument elektronik tablosu
+```
