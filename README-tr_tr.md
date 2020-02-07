@@ -1,4 +1,4 @@
-﻿# Office Aracı Artı
+﻿# Office Tool Plus
 
 [⬅ Geri](https://github.com/YerongAI/Office-Tool)
 
@@ -76,7 +76,7 @@ Herkes uygulamanın yerelleştirilmesine aşağıdaki şekilde katılabilir.
 
 Sorun yoksa, uygulama seçilen dil dosyasını yükleyecektir. Yeni bir çeviri eklemek, Office Tool Plus'ın sunucuya bağlanamadığını belirten bir mesaj görüntüleyebilir, ancak bu normaldir. 
 
-### daha fazla bilgi
+### Daha Fazla Bilgi
 
 ````Her tercüman için bir Yönetici uygulaması sağlıyoruz. Bu uygulama tercümanların duyurular, duvar kağıtları ve açıklamalar gibi bilgileri kolayca düzenlemelerine olanak sağlar. Bunun için bana````
 [mail gönderin.](mailto:yerong@coolhub.top) 
