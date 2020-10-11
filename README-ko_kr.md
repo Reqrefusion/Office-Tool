@@ -1,73 +1,73 @@
-﻿# Office Tool Plus
+﻿#
 
-[⬅ Back](https://github.com/YerongAI/Office-Tool)
+<p align="center">
+<img alt="Office Tool Plus Logo" src="https://otp.landian.vip/static/images/logo.png"/>
+</p>
 
-Office Tool Plus는 하나의 Office 관리, 다운로드와 설치 보조 툴입니다.
+<p align="center">
+<a href="https://www.coolhub.top/" target="_blank"><img alt="Author" src="https://img.shields.io/badge/Author-Yerong-blue?style=flat-square"/></a>
+<img alt="Language" src="https://img.shields.io/badge/Language-C%23-green?style=flat-square"/>
+<a href="https://otp.landian.vip/" target="_blank"><img alt="Release" src="https://img.shields.io/github/v/release/YerongAI/Office-Tool?style=flat-square"/></a>
+<img alt="License" src="https://img.shields.io/github/license/YerongAI/Office-Tool?style=flat-square"/>
+</p>
 
-Office Tool Plus는 마이크로소프트 [Office 배포 도구를](https://docs.microsoft.com/ko-kr/DeployOffice/overview-of-the-office-2016-deployment-tool)를 기반으로 만들고 사용자에게 빠르고 편한 Office배포 기능을 제공합니다.
+ > 하나의 유용한 Office 배포도구입니다.
 
-Office Tool Plus가 기 존재 Office( Click To Run방식만 한정)를 변경, 단독제품을 제거하거나 언어 패키지 추가도 가능합니다.
+아래 제품들에 대한 사용자 정의된 배포와 정품인정 지원:
+
+- Office 2016, 2019 & 365
+- Visio 2016, 2019 & Online Plan 2
+- Project 2016, 2019 & Online Desktop Client
+
+Office 배포 제외의 다른 기능들:
+
+- Office 17개의 전체 채널을 지원, 조회/다운로드/설치 포함
+- 기존 Office 수정, 제품/응용프로그램/언어팩 추가 및 제거
+- XML 환경설정 파일 도입/수출
+- ISO 파일을 만들어 공유하고 오프라인 설치 가능
+- Office 라이선스 설치 (Office 버전 전환)
+- 하나의 키로 Office 라이선스와 키 제거
+- 온라인 정품인정/전환 정품인정(오프라인 정품인정)과 KMS 정품인정
+- Office 강제 제거
+- 재설치 필요 없이 Office 업데이트 채널을 바꾸기
+- 일과로 Office 파일 전환, Office API 기능 사용 (V8버전에서 만)
+
+일부의 기능들이 다음 도구들오 완성함:
+
+- **[Office 배포도구](https://docs.microsoft.com/en-us/deployoffice/overview-office-deployment-tool)** - Office 배포에 관한 도구
+- **[OSPP](https://docs.microsoft.com/en-us/DeployOffice/vlactivation/tools-to-manage-volume-activation-of-office)** - Office 정품인정 스크립트
+- **Thunder 다운로드 클라우드 프랫폼** - Office 다운로드 기능의 주요 엔진
+- **vlmcs** - KMS 사용 가능성을 검사하는 도구 *전체 버전에서만 존재함*
+
+## 시스템 요구사항
+
+- Windows 7 SP1, Windows 8 和 Windows 10.
+- Windows Server 2008 R2 SP1, Windows Server 2012나 이상 버전
+
+### V8
+
+- [Microsoft .NET Core 3.1 Desktop Runtime x86](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+
+*주의: 모든 시스템에서도 이 런타이임이 필수합니다.*
+
+### V7
+
+- [Microsoft .NET Framework 4.6.1](http://go.microsoft.com/fwlink/?LinkId=780597).
+
+*주의: Windows 10에서는 보다 높은 버전의 .Net Framework가 이미 존재해서 설치 필요 없음.*
 
 ## Office Tool Plus 다운로드
 
-[공식 사이트](https://otp.landian.vip/)
+- [공식 사이트](https://otp.landian.vip/)
 
-[다운로드 사이트](https://delivery.yuntu.dev/office-tool/) by [Yuntu](https://www.yuntu.dev/)
+- [비상 사이트](https://download.coolhub.top/)
 
-## 기술설명서
+## 빠른 알아보기
 
-[설정 옵션 설명](https://docs.microsoft.com/ko-kr/DeployOffice/configuration-options-for-the-office-2016-deployment-tool)
+Please refer to [Office Tool Plus Quick Start](https://github.com/YerongAI/Office-Tool/wiki/Office-Tool-Plus-Quick-Start)
 
-## 간단설명서
+## 추가정보
 
-Go to Deploy page, add a product (or more) that you want to install, then click Deploy to start your installation. You can configure other settings if you want.
+© 2016-2020 Yerong. All rights reserved.
 
-You need to Activate Office after installation.
-
-## 응용프로그램의 법률 관련사항
-
-Office Tool Plus는 마이크로소프트의[Office 배포 도구를](https://docs.microsoft.com/ko-kr/DeployOffice/overview-of-the-office-2016-deployment-tool)를 기반으로 만들고 추가기능을 통해서 사용자에게 더 편한 Office배포 경험을 제공합니다.
-
-**통역자 추가 주의사항: 중국 이외의 다른 국가 및 지역의 사용자 분들이 해당 국가 및 지역의 관련 법률을 준수하여 사용하십시오
-
-### 정품인정 모듈에 관한 사항
-
-정품인정 모듈이 마이크로소프트의 ospp.vbs (Office Software Protect Platform)를 기반으로 만들고 모든 정품인정 조치가 ospp.vbs로 진행합니다. 사용자들에게 더 확실하게 OSPP를 이해하도록 변역도(zh-ch, zh-tw) 진행합니다.
-
-````"C:\Program Files\Microsoft Office\Office16\OSPP.HTM"````에서 OSPP조치 설명을 확인할 수 있습니다(Office를 먼저 설치 해야함).
-
-## 협력자 감사합니다
-
-### Thanks to the collaborators
-
-- Portuguese (Brazil) / [Hélio de Souza](https://sway.office.com/RVue6qySNJ2DzYrs?ref=Link)
-- Polish (Poland) / JakubDriver
-- Korean (Korea) / [Jay Jang](https://github.com/yaeyaya)
-- Traditional Chinese (Taiwan) / [Yi Chi](https://github.com/chiyi4488)
-- English (United States) / [Moedog](https://prprpr.love)
-
-## 현지화(로컬리제이션) 도움 요청
-
-누구나도 응용프로그램의 현지화 참여 할 수 있도록 다음과 같은 설명을 드립니다.
-
-1. 이 리포지토리 포크함(Fork this repository)
-
-2. (예) 파일````zh-cn.xaml````를 변역해서 ````zh-tw.xaml````로 저장함
-
-3. (예) 정확한 경로 ````OfficeToolPlus/Language/zh-tw.xaml````로 복사함
-
-4. 풀 요청함(Make a Pull Request)
-
-### 변역파일 테스트
-
-1. 변역파일을 ````D:\Date\zh-cn.xaml```` 같은 경로에 저장함
-2. Office Tool Plus를 실행함
-3. 설정 페이지에 이동해서 ````Load localization file````을 클릭함
-4. 저장한 변역파일을 선택함
-
-문제 없으면 응용프로그램이 선택된 언어 리소스 파일을 로드할 겁니다. 새 변역을 추가하면 Office Tool Plus가 서버에 연결하지 못 하는 메시지 표시할 수 있지만 이 현상은 정상입니다. 변역을 확인후 저희는 서버 새설정할 겁니다.
-
-### 더 많은 정보
-
-저희는 변역자마다 Admin응용프로그램을 제공합니다. 번역자가 이 으용프로그램을 통해서 공지사항, 배경화면과 설명내용 등 정보를 간편하게 수정할 수 있습니다.
-**[이메일](mailto:yerong@coolhub.top)로 신청하면 됩니다.
+> 블로그 [@Yerong の小窝](https://www.coolhub.top/) · GitHub [@YerongAI](https://github.com/YerongAI) · Telegram [@Office Tool Plus](https://t.me/otp_channel)

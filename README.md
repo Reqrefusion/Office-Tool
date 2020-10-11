@@ -1,54 +1,88 @@
-﻿# Office Tool Plus
+#
 
-English | [简体中文](/README-zh_cn.md) | [繁體中文](/README-zh_tw.md) | [한국어](/README-ko_kr.md) | [Italiano](/README-it_it.md) | [ไทย/Thai](/README-th_th.md) | [polski](/README-pl_pl.md) | [Brazilian Portuguese](/README-pt_br.md) | [Français](/README-fr_fr.md)
+<p align="center">
+<img alt="Office Tool Plus Logo" src="https://otp.landian.vip/static/images/logo.png"/>
+</p>
 
-Office Tool Plus is a tool for managing, downloading and installing Office.
+<p align="center">
+<a href="https://www.coolhub.top/" target="_blank"><img alt="Author" src="https://img.shields.io/badge/Author-Yerong-blue?style=flat-square"/></a>
+<img alt="Language" src="https://img.shields.io/badge/Language-C%23-green?style=flat-square"/>
+<a href="https://otp.landian.vip/" target="_blank"><img alt="Release" src="https://img.shields.io/github/v/release/YerongAI/Office-Tool?style=flat-square"/></a>
+<img alt="License" src="https://img.shields.io/github/license/YerongAI/Office-Tool?style=flat-square"/>
+</p>
 
-Office Tool Plus is based on Microsoft's [Office Deployment Tool](https://docs.microsoft.com/en-us/DeployOffice/overview-of-the-office-2016-deployment-tool). You can customize configure your Office installation and download installation files to install Office without Internet.
+> A powerful and useful tool for Office deployments.
 
-What's more, you can manage your installed Office, add language packs or customize uninstall Office.
+Supports custom deployment and activation of the following products:
+
+- Office 2016, 2019 & 365
+- Visio 2016, 2019 & Online Plan 2
+- Project 2016, 2019 & Online Desktop Client
+
+Additional functions:
+
+- Support for all 17 channels of Office, including query, download, and installation.
+- Modifications to existing Office, including additions and deletions of products, applications, language packs, etc.
+- Importing/Exporting XML Profiles.
+- Create ISO files for sharing or offline installation.
+- Installing Office licenses (converted edition).
+- Cleanup of Office licenses and keys.
+- Supports online activation, phone activation (offline activation) and KMS activation.
+- Reset/Forced removal of Office.
+- Changing Office's update channel without reinstalling Office.
+- Batch conversion of Office documents, based on Office API (Version 8 only).
+
+Components:
+
+- **[Office Deployment Tool](https://docs.microsoft.com/en-us/deployoffice/overview-office-deployment-tool)** - The main modules of installing Office.
+- **[OSPP](https://docs.microsoft.com/en-us/DeployOffice/vlactivation/tools-to-manage-volume-activation-of-office)** - Office Software Protect Platform.
+- **Thunder** - The main engines for downloading Office.
+- **vlmcs** - Components for testing the availability of KMS, *only included in the full version*.
+
+## System Requirements
+
+- Windows 7 SP1, Windows 8 and Windows 10.
+- Windows Server 2008 R2 SP1, Windows Server 2012 or higher.
+
+### Version 8
+
+- [Microsoft .NET Core 3.1 Desktop Runtime x86](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+
+*Note: This framework should be installed on all systems.*
+
+### Version 7
+
+- [Microsoft .NET Framework 4.6.1](http://go.microsoft.com/fwlink/?LinkId=780597)
+
+*Note: A higher version is built into Windows 10 and does not require additional installation.*
 
 ## Download Office Tool Plus
 
-[Official website](https://otp.landian.vip/)
+- [Official website](https://otp.landian.vip/)
 
-[Mirror download](https://delivery.yuntu.dev/office-tool/) by [云图小镇](https://www.yuntu.dev/)
-
-## Technical Articles
-
-[Configuration options](https://docs.microsoft.com/en-us/DeployOffice/configuration-options-for-the-office-2016-deployment-tool)
+- [Download site](https://download.coolhub.top/)
 
 ## Quick Start
 
-Go to Deploy page, add a product that you want to install, then click Deploy to start your installation.
-
-## Application Legitimacy
-
-Office Tool Plus is based on Microsoft's [Office Deployment Tool](https://docs.microsoft.com/en-us/DeployOffice/overview-of-the-office-2016-deployment-tool). And we added some functions according to the needs of users.
-
-### About Activate Function
-
-The activate function was based on Microsoft's ospp.vbs (Office Software Protect Platform), all activate operations are performed by ospp.vbs. And in order to let users better understand OSPP, we translated it (zh-cn, zh-tw).
-
-You can view the description of OSPP in ````"C:\Program Files\Microsoft Office\Office16\OSPP.HTM"```` (Office installed required).
+Please refer to [Office Tool Plus Quick Start](https://github.com/YerongAI/Office-Tool/wiki/Office-Tool-Plus-Quick-Start)
 
 ## Thanks to the collaborators
 
 - (ar-ps) العربية (الأراضي الفلسطينية) / Ibrahim
 - (de-de) Deutsch (Deutschland) / [Berny23](https://steamcommunity.com/id/Berny23)
 - (en-us) English (United States) / [Moedog](https://prprpr.love)
-- (es-es) Español (España, alfabetización internacional) / Xoseba
+- (es-es) Español (España) / Xoseba
 - (fr-fr) Français (France) / Drake4478
-- (it-it) Italiano (Italia) / garf02
-- (ja-jp) 日本語 (日本) / 秋叶笙
-- (ko-kr) 한국어(대한민국) / [Jay Jang](https://github.com/yaeyaya)
+- (id-id) Bahasa Indonesia (Indonesian) / [Ida Bagus Anom Sanjaya](https://fb.me/Anom.Sanjaya17), [Jovanzers](https://github.com/jovanzers)
+- (it-it) Italiano (Italia) / [garf02](https://github.com/garf02)
+- (ja-jp) 日本語 (日本) / [秋山ヘイワ](https://github.com/akio1321), kai, 河豚
+- (ko-kr) 한국어(대한민국) / [Jay Jang](http://www.yaeyaya.com)
 - (pl-pl) Polski (Polska) / JakubDriver
-- (pt-br) Português (Brasil) / [Hélio de Souza](https://sway.office.com/RVue6qySNJ2DzYrs?ref=Link)
-- (ru-ru) русский (Россия) - `(Not updated)` / Долматов Алексей
+- (pt-br) Português (Brasil) / [Hélio de Souza](https://tinyurl.com/hdstec) [Igor Rückert](https://github.com/igorruckert)
 - (tr-tr) Türkçe (Türkiye) / Turan Furkan Topak
-- (vi-vn) Tiêng Việt (Việt Nam) / phuocding
-- (zh-cn) 简体中文 (中国) / **官方语言 (Official language)**
-- (zh-tw) 繁體中文 (台灣) / [Yi Chi](https://github.com/chiyi4488)
+- (vi-vn) Tiêng Việt (Việt Nam) / [phuocding](https://github.com/phuocding)
+- (zh-cn) 简体中文 (中国) / Official language
+- (zh-tw) 繁體中文 (台灣) / [Yi Chi](https://www.cotpear.com), [Yi-Jyun Pan](https://github.com/pan93412)
 
 ## Help With Localization
 
@@ -56,24 +90,16 @@ We encourage everyone to help with localization. The following is how to do.
 
 1. Fork this repository
 
-2. Translate ````zh-cn.xaml```` to your own language then save it like ````zh-tw.xaml````
+2. Translate **en-us.xaml** to your own language then save it like **de-de.xaml**
 
-3. Copy it to the right path, like OfficeToolPlus/Language/zh-tw.xaml
+3. Copy it to the right path.
 
 4. Make a Pull Request.
 
-### How To Test Your Translation
+Or you can send me your files via [E-mail](mailto:yerong@coolhub.top)
 
-1. Save your translation file to a path, like ````D:\Date\zh-cn.xaml````.
+## About
 
-2. Open application.
+© 2016-2020 Yerong. All rights reserved.
 
-3. Go to settings page, click ````Load localization file.````
-
-4. Select the file that you just saved.
-
-After that, application will load your translation, if you are adding a new translation to application, it will show: failed to connect to server. It's normal.
-
-### What is More
-
-````For each translator, we will give them an Admin app that allows you to change the announcement and upload a background image.```` [Send a e-mail](mailto:yerong@coolhub.top) ````to us.````
+> Blog [@Yerong の小窝](https://www.coolhub.top/) · GitHub [@YerongAI](https://github.com/YerongAI) · Telegram [@Office Tool Plus](https://t.me/otp_channel)

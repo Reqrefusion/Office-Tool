@@ -1,0 +1,426 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.RunTime"
+                    xml:space="preserve">
+    <!-- Country settings, it is used to get information from server. -->
+    <sys:String x:Key="Culture">it-it</sys:String>
+    <!-- Eula Content -->
+    <sys:String x:Key="EulaTitle">Termini della Licenza</sys:String>
+    <sys:String x:Key="EulaContent">Utilizzando questo programma, accetti i [Termini di Licenza del Programma]({0}) e il [Contratto dei Servizi Microsoft]({1}).</sys:String>
+    <!-- Header -->
+    <sys:String x:Key="ISOMode">- Modalità ISO</sys:String>
+    <sys:String x:Key="Notifications">Notifiche</sys:String>
+    <sys:String x:Key="Help">Aiuto</sys:String>
+    <sys:String x:Key="About">Informazioni</sys:String>
+    <sys:String x:Key="Settings">Impostazioni</sys:String>
+    <!-- Channels Name, if you don't want to translate them, please keep in English. -->
+    <sys:String x:Key="PerpetualVL2019">Office 2019 Perpetual Enterprise</sys:String>
+    <sys:String x:Key="SemiAnnual">Semi-Annual Enterprise Channel</sys:String>
+    <sys:String x:Key="MonthlyEnterprise">Monthly Enterprise Channel</sys:String>
+    <sys:String x:Key="Current">Current Channel</sys:String>
+    <sys:String x:Key="SemiAnnualPreview">Semi-Annual Enterprise Channel (Preview)</sys:String>
+    <sys:String x:Key="CurrentPreview">Current Channel (Preview)</sys:String>
+    <sys:String x:Key="BetaChannel">Beta Channel</sys:String>
+    <!-- Global -->
+    <sys:String x:Key="Message">Messaggio</sys:String>
+    <sys:String x:Key="Notice">Avviso</sys:String>
+    <sys:String x:Key="Warning">Attenzione</sys:String>
+    <sys:String x:Key="Error">Errore</sys:String>
+    <sys:String x:Key="Yes">Sì</sys:String>
+    <sys:String x:Key="No">No</sys:String>
+    <sys:String x:Key="OK">OK</sys:String>
+    <sys:String x:Key="Cancel">Annulla</sys:String>
+    <sys:String x:Key="OfficeDeploymentTool">Office Deployment Tool</sys:String>
+    <sys:String x:Key="Version">Versione:</sys:String>
+    <sys:String x:Key="Branch">Ramo:</sys:String>
+    <sys:String x:Key="Architecture">Architettura:</sys:String>
+    <sys:String x:Key="x86">32 Bit</sys:String>
+    <sys:String x:Key="x64">64 Bit</sys:String>
+    <sys:String x:Key="BasicSettings">Impostazioni Base</sys:String>
+    <sys:String x:Key="AdvancedSettings">Impostazioni Avanzate</sys:String>
+    <sys:String x:Key="Retry">Riprova</sys:String>
+    <sys:String x:Key="Normal">Normale</sys:String>
+    <sys:String x:Key="None">None</sys:String>
+    <sys:String x:Key="Query">Query</sys:String>
+    <sys:String x:Key="Disinstalla">Uninstall</sys:String>
+
+    <!-- Greetings -->
+    <!-- Showed when app started. -->
+    <sys:String x:Key="GreetingHi">Ciao, {0}</sys:String>
+    <!-- 06:00 - 11:00 -->
+    <sys:String x:Key="GreetingGoodMorning">Buon giorno, {0}</sys:String>
+    <!-- 11:00 - 13:00 -->
+    <sys:String x:Key="GreetingGoodAfternoon1">Buon pomeriggio, {0}</sys:String>
+    <!-- 13:00 - 18:00 -->
+    <sys:String x:Key="GreetingGoodAfternoon2">Buona sera, {0}</sys:String>
+    <!-- 18:00 - 22:00 -->
+    <sys:String x:Key="GreetingGoodEvening">Buona notte, {0}</sys:String>
+    <!-- 22:00 - 06:00 (+1) -->
+    <sys:String x:Key="GreetingLateAtNight">Caro {0}, è tardi, fai dei buoni sogni!</sys:String>
+    <!-- Home -->
+    <sys:String x:Key="Deploy">Distribuzione</sys:String>
+    <sys:String x:Key="Activate">Attivazione</sys:String>
+    <sys:String x:Key="Toolbox">Strumenti</sys:String>
+    <sys:String x:Key="Homepage">Homepage</sys:String>
+    <sys:String x:Key="Contact">Conttami</sys:String>
+    <sys:String x:Key="Donate">Donazione</sys:String>
+    <sys:String x:Key="JoinGroup">Gruppi</sys:String>
+    <sys:String x:Key="RunAsAdmin">Avvia come Amministratore</sys:String>
+    <sys:String x:Key="CreateShortcut">Crea collegamento sul desktop</sys:String>
+    <sys:String x:Key="ServerUnavailable">Impossibile connettersi al server, controlla la connessione Internet.</sys:String>
+    <!-- Deploy Page -->
+    <sys:String x:Key="StartDeploy">Installa Office</sys:String>
+    <sys:String x:Key="DeployViewCode">Visualizza Codice</sys:String>
+    <sys:String x:Key="DeployExportXML">Esporta file XML</sys:String>
+    <sys:String x:Key="DeployImportXML">Importa file XML</sys:String>
+    <sys:String x:Key="DeployImportXMLFromWeb">Importa file XML dal Web</sys:String>
+    <!-- Download Panel -->
+    <sys:String x:Key="DownloadStatus">Stato:</sys:String>
+    <sys:String x:Key="DownloadPending">In attesa</sys:String>
+    <sys:String x:Key="DownloadDownloading">Scaricamento</sys:String>
+    <sys:String x:Key="DownloadPausing">Pausa</sys:String>
+    <sys:String x:Key="DownloadPaused">In pausa</sys:String>
+    <sys:String x:Key="DownloadCreating">Creazione file ISO</sys:String>
+    <sys:String x:Key="DownloadPause">Pausa</sys:String>
+    <sys:String x:Key="DownloadResume">Riprendi</sys:String>
+    <!-- Product -->
+    <sys:String x:Key="DeployProducts">Prodotti</sys:String>
+    <sys:String x:Key="DeployProductID">ID Prodotto:</sys:String>
+    <sys:String x:Key="DeployAddProduct">Aggiungi prodotto</sys:String>
+    <sys:String x:Key="DeployErrorConfig">⚠ Il prodotto non può coesistere con i prodotti installati.</sys:String>
+    <sys:String x:Key="DeployErrorModule">⚠ Il prodotto richiede l'installazione utilizzando il modulo Office Tool Plus.</sys:String>
+    <sys:String x:Key="DeployErrorChannel">⚠ Il prodotto non può essere installato sul canale selezionato: {0}</sys:String>
+    <sys:String x:Key="DeployErrorUnsupportedChannel">⚠ Se vuoi utilizzare {0}, devi utilizzare il modulo Office Tool Plus per installare Office.</sys:String>
+    <sys:String x:Key="DeployErrorSystem">⚠ Non puoi installare la versione 64 bit di Office su un sistema a 32 bit.</sys:String>
+    <!-- Example: ⚠ You can't install 32 bit of Office, because you have the 64 bit of Office installed on your computer. -->
+    <sys:String x:Key="DeployErrorArch">⚠ Non puoi installare la versione {0} di Office, perchè hai la versione {1} già installata sul computer.</sys:String>
+    <sys:String x:Key="DeployWillUninstall">⚠ Clicca su "Avvia Distribuzione" per confermare la disinstallazione.</sys:String>
+    <sys:String x:Key="DeployApps">Applicazioni</sys:String>
+    <!-- Language -->
+    <sys:String x:Key="LanguagePack">Pacchetti Lingua</sys:String>
+    <sys:String x:Key="LanguageID">ID Lingua: {0}</sys:String>
+    <sys:String x:Key="LanguageType">Tipo di pacchetto lingua: {0}</sys:String>
+    <sys:String x:Key="Full">Completo</sys:String>
+    <sys:String x:Key="Partial">Parziale</sys:String>
+    <sys:String x:Key="PartialWithoutProofingTools">Parziale senza strumenti di correzione</sys:String>
+    <sys:String x:Key="ProofingTools">Strumenti di correzione</sys:String>
+    <sys:String x:Key="LangFullTip">Il pacchetto lingua include la lingua di visualizzazione e gli strumenti di correzione.</sys:String>
+    <sys:String x:Key="LangPartialTip">Il pacchetto lingua include la lingua di visualizzazione per alcune applicazioni di Office e gli strumenti di correzione.</sys:String>
+    <sys:String x:Key="LangPartialWithoutProofingToolsTip">Il pacchetto lingua include la lingua di visualizzazione per alcune applicazioni di Office però non include gli strumenti di correzione.</sys:String>
+    <sys:String x:Key="LangProofingToolsTip">Il pacchetto lingua include solo il controllo ortografico.</sys:String>
+    <sys:String x:Key="DeployAsProof">Distribuisci solo strumenti di correzione.</sys:String>
+    <sys:String x:Key="DeployAddLanguagePackage">Aggiungi pacchetto lingua</sys:String>
+    <!-- Advanced Settings -->
+    <sys:String x:Key="DeployOrganizationName">Fornire il nome dell'organizzazione per impostare le proprietà dell'Azienda sui documenti di Office.</sys:String>
+    <sys:String x:Key="DeployDescription">Fornire una descrizione per questa configurazione a scopo di documentazione.</sys:String>
+    <!-- Installation Settings -->
+    <sys:String x:Key="DeployInstallationSettings">Imposta Installazione</sys:String>
+    <sys:String x:Key="DeployDownloadPath">Percorso Download:</sys:String>
+    <sys:String x:Key="DeployDownloadPathTip">Definisce da dove vengono scaricati i file di installazione, è necessario specificare una versione quando si utilizza DownloadPath.</sys:String>
+    <sys:String x:Key="DeploySourcePath">Cartella Sorgente:</sys:String>
+    <sys:String x:Key="DeploySourcePathTip">Se la cartella sorgnete è vuota, Office CDN verrà utilizzato come sorgente predefinito. In modalità download, definire dove salvare i file.</sys:String>
+    <sys:String x:Key="DeployDisplayLevel">Non visualizzare nessuna finestra durante l'installazione.</sys:String>
+    <sys:String x:Key="DeployAllowCDNFallback">Consenti all'installazione di eseguire il fallback alla CDN di Office per le lingue mancanti.</sys:String>
+    <sys:String x:Key="DeployForceCloseApps">Chiudi le applicazioni di Office attive.</sys:String>
+    <sys:String x:Key="DeployPinIconToTaskbar">Appunta le icone alla barra delle applicazioni su Windows 7, 8 e 8.1</sys:String>
+    <!-- Log Settings -->
+    <sys:String x:Key="DeployLogSettings">Opzioni Registro LOG</sys:String>
+    <sys:String x:Key="DeploySaveLog">Abilita registro LOG</sys:String>
+    <sys:String x:Key="DeployLogPath">Percorso:</sys:String>
+    <!-- Update Settings -->
+    <sys:String x:Key="DeployUpdateSettings">Imposta Aggiornamento</sys:String>
+    <sys:String x:Key="DeployEnableUpdate">Attiva aggiornamenti automatici di Office.</sys:String>
+    <sys:String x:Key="DeployEnableCOM">Gestire gli aggiornamenti utilizzando Configuration Manager</sys:String>
+    <sys:String x:Key="DeployUpdatePath">Sorgente aggiornamento:</sys:String>
+    <sys:String x:Key="DeployTargetVersion">Versione destinazione:</sys:String>
+    <sys:String x:Key="DeployUpdateDeadline">Scadenza aggiornamento:</sys:String>
+    <sys:String x:Key="DeployUpdateChannel">Canale Aggiornamento:</sys:String>
+    <!-- Upgrade Settings -->
+    <sys:String x:Key="DeployUpgradeSettings">Opzioni Aggiornamento</sys:String>
+    <sys:String x:Key="DeployMigrateArch">Migrazione architettura</sys:String>
+    <sys:String x:Key="DeployMigrateArchTip">Se la migrazione architettura è selezionato, l'installazione di Office esistente verrà modificata nell'architettura attualmente specificata.</sys:String>
+    <sys:String x:Key="DeployForceUpgrade">Forza aggiornamento</sys:String>
+    <sys:String x:Key="DeployRemoveMSI">Rimuovi versioni MSI installate di Office.</sys:String>
+    <sys:String x:Key="DeployIgnoreProduct">Ignora questi prodotti</sys:String>
+    <sys:String x:Key="DeployMatchPreviousMSI">Installa la stessa lingua della precedente versione MSI.</sys:String>
+    <!-- Activate Settings -->
+    <sys:String x:Key="DeployActivateSettings">Imposta Attivazione</sys:String>
+    <sys:String x:Key="DeployAcceptEULA">Accetta licenza EULA automaticamente</sys:String>
+    <sys:String x:Key="DeployAcceptEULATip">Se Accetta EULA è impostata su VERO, i "Termini di Licenza del Software Microsoft" non verranno visualizzati.</sys:String>
+    <sys:String x:Key="DeployProductMAK">Imposta MAK</sys:String>
+    <sys:String x:Key="DeployAutoActivate">Auto attiva</sys:String>
+    <sys:String x:Key="DeployProductActivation">Attivazione Prodotto</sys:String>
+    <sys:String x:Key="DeployActivateByUser">Basato sull'utente.</sys:String>
+    <sys:String x:Key="DeployActivateBySCL">Computer condiviso.</sys:String>
+    <sys:String x:Key="DeployActivateSCLCacheOverride">Consenti il roaming del token di licenza.</sys:String>
+    <sys:String x:Key="DeployBasedDevice">Basato sulla periferica.</sys:String>
+    <!-- App Preferences -->
+    <sys:String x:Key="DeployPreferences">Preferenze Programma</sys:String>
+    <sys:String x:Key="DeployPreferencesFilter">Digita per cercare le preferenze dell'applicazione</sys:String>
+    <sys:String x:Key="DeployPreferencesApply">Applica</sys:String>
+    <sys:String x:Key="DeployPreferencesReset">Reset</sys:String>
+    <sys:String x:Key="DeployPreferencesResetAll">Reimposta tutte le impostazioni</sys:String>
+    <!-- Deploy Settings -->
+    <sys:String x:Key="DeploySettings">Impostazioni Distribuzione</sys:String>
+    <sys:String x:Key="DeployChannel">Canale:</sys:String>
+    <sys:String x:Key="DeployMode">Modalità Distribuzione:</sys:String>
+    <sys:String x:Key="DeployModeIWD">Installa durante il download</sys:String>
+    <sys:String x:Key="DeployModeIAD">Installa dopo il download</sys:String>
+    <sys:String x:Key="DeployModeUEI">Usa una sorgente di installazione esistente</sys:String>
+    <sys:String x:Key="DeployModeCreateISO">Crea file ISO</sys:String>
+    <sys:String x:Key="DeployModeDownload">Solo download</sys:String>
+    <sys:String x:Key="DeployModeEdit">Modfica solo config</sys:String>
+    <sys:String x:Key="DeployModule">Modulo installazione:</sys:String>
+    <sys:String x:Key="DeployCreateShortcut">Crea collegamenti sul desktop.</sys:String>
+    <sys:String x:Key="DeployInstalliSlide">Installa iSlide.</sys:String>
+    <!-- Download Settings -->
+    <sys:String x:Key="DownloadSettings">Impostazioni Download</sys:String>
+    <sys:String x:Key="DownloadEngine">Motore:</sys:String>
+    <sys:String x:Key="DownloadEngineThunder">Thunder</sys:String>
+    <sys:String x:Key="DownloadUseHTTPS">Connetti utilizzando HTTPS</sys:String>
+    <sys:String x:Key="DownloadThunderSettings">Imposta Thunder</sys:String>
+    <sys:String x:Key="DownloadSpeedLimit">Limite Velocità</sys:String>
+    <sys:String x:Key="DownloadProxyType">Tipo proxy:</sys:String>
+    <sys:String x:Key="DownloadServerAddress">Indirizzo del server:</sys:String>
+    <sys:String x:Key="DownloadUserName">Nome utente:</sys:String>
+    <sys:String x:Key="DownloadPassword">Password:</sys:String>
+    <!-- Installation Manage -->
+    <sys:String x:Key="InstallationFilesManage">Gestione File Installazione</sys:String>
+    <!-- Activate Page -->
+    <sys:String x:Key="ActivateViewInformation">Visualizza info attivazione.</sys:String>
+    <sys:String x:Key="ActivateViewLicenses">Visualizza info sulle license installate.</sys:String>
+    <sys:String x:Key="ActivateViewFailureHistory">Visualizza cronologia fallimenti delle attivazioni MAK/Retail.</sys:String>
+    <sys:String x:Key="ActivateViewKMSHistory">Visualiza cronologia attivazioni tramite KMS.</sys:String>
+    <sys:String x:Key="ActivateClearResult">Pulisci risultati dell'operazione</sys:String>
+    <sys:String x:Key="ActivateResult">Risultati Operazione</sys:String>
+    <!-- Licenses -->
+    <sys:String x:Key="ActivateLicensesManage">Gestione Licenze</sys:String>
+    <sys:String x:Key="ActivateSelectLicense">Seleziona una licenza:</sys:String>
+    <sys:String x:Key="ActivateInstallLicenses">Installa licenza</sys:String>
+    <sys:String x:Key="ActivateClearLicenses">Pulisci licenze</sys:String>
+    <sys:String x:Key="ActivateRLS">Reimposta lo stato della licenza per una licenza di Office</sys:String>
+    <sys:String x:Key="ActivateRLSTip">E' necessario inserire il valore SKU ID.</sys:String>
+    <sys:String x:Key="ActivateRLSForAll">Reimposta lo stato della licenza per tutte le licenze</sys:String>
+    <sys:String x:Key="ActivateRLSForAllTip">Reimposta lo stato della licenza per tutti i codici Product Key di Office installati, sarà necessario riattivare Office dopo questa operazione.</sys:String>
+    <sys:String x:Key="ActivateClearActivation">Pulisci attivazione</sys:String>
+    <!-- Key -->
+    <sys:String x:Key="ActivateKeyManage">Gestione Chiavi</sys:String>
+    <sys:String x:Key="ActivateProductKey">Product key:</sys:String>
+    <sys:String x:Key="ActivateProductKeyTip">Inserire la chiave del prodotto completa da installare o gli ultimi 5 caratteri della chiave installata per disinstallare.</sys:String>
+    <sys:String x:Key="ActivateInstallKey">Installa chiave</sys:String>
+    <sys:String x:Key="ActivateUninstallKey">Rimuovi chiave</sys:String>
+    <sys:String x:Key="ActivateUninstallAllKeys">Rimuovi tutte le chiavi</sys:String>
+    <sys:String x:Key="ActivateViewIID">Visualizza ID Installazione</sys:String>
+    <sys:String x:Key="ActivateInstallCID">Installa ID Conferma</sys:String>
+    <sys:String x:Key="ActivateInstallCIDTip">E' necessario fornire un ID di conferma.</sys:String>
+    <!-- KMS -->
+    <sys:String x:Key="ActivateKMSManage">Gestione KMS</sys:String>
+    <sys:String x:Key="ActivateKMSHost">Host KMS:</sys:String>
+    <sys:String x:Key="ActivateKMSPort">Porta KMS port (opzionale):</sys:String>
+    <sys:String x:Key="ActivateSetKMS">Imposta host KMS</sys:String>
+    <sys:String x:Key="ActivateSetPort">Imposta porta KMS</sys:String>
+    <sys:String x:Key="ActivateEnableCaching">Attiva caching host</sys:String>
+    <sys:String x:Key="ActivateDisableCaching">Disattiva caching host</sys:String>
+    <sys:String x:Key="ActivateClearKMS">Rimuovi host KMS (Reimposta la porta predefinita)</sys:String>
+    <!-- Content Translation -->
+    <sys:String x:Key="ActivationTitle">Elaborazione Attivazione di Office</sys:String>
+    <sys:String x:Key="LicenseDescription">Descrizione Licenza: </sys:String>
+    <sys:String x:Key="LicenseStatus">Stato Licenza: </sys:String>
+    <sys:String x:Key="RemainGrace">Tempo Rimanente: </sys:String>
+    <sys:String x:Key="RemainGraceDay">giorni</sys:String>
+    <sys:String x:Key="RemainGraceMin">minuto(i) prima di scadere</sys:String>
+    <sys:String x:Key="Licexpiry">Scadenza Beta: </sys:String>
+    <sys:String x:Key="ErrorCode">Codice Errore: </sys:String>
+    <sys:String x:Key="ErrorDescrpition">Descrizione Errore: </sys:String>
+    <sys:String x:Key="ErrorUnknown">Si è verificato un errore sconosciuto.</sys:String>
+    <sys:String x:Key="StatusLicensed"> **---CON LICENZA---** </sys:String>
+    <sys:String x:Key="StatusUnlicensed"> `---SENZA LICENZA---` </sys:String>
+    <sys:String x:Key="StatusOOBGrace"> `---OOB_GRACE---` </sys:String>
+    <sys:String x:Key="StatusOOTGrace"> `---OOT_GRACE---` </sys:String>
+    <sys:String x:Key="StatusNonGenuineGrace"> `---NON_GENUINE_GRACE---` </sys:String>
+    <sys:String x:Key="StatusNotifications"> `---NOTIFICA---` </sys:String>
+    <sys:String x:Key="StatusExtendedGrace"> `---PERIODO ESTESO---` </sys:String>
+    <sys:String x:Key="StatusUnknown"> `---SCONOSCIUTO---` </sys:String>
+
+    <sys:String x:Key="AppliedSetting">Impostazione applicata con successo.</sys:String>
+    <sys:String x:Key="NoKMSLics">Nessuna licenza KMS di Office trovata su questo sistema.</sys:String>
+    <sys:String x:Key="NoKeyInstalled">Nessuna product key installata.</sys:String>
+    <sys:String x:Key="UninstallKey">Disinstallazione Product key effettuata con successo.</sys:String>
+    <sys:String x:Key="ActivationSuccess">**Attivazione del prodotto effettuata con successo**</sys:String>
+    <sys:String x:Key="OfflineActivationSuccess">**Attivazione offline del prodotto effettuata con successo**</sys:String>
+    <sys:String x:Key="IKeySuccess">**Installazione Product key effettuata con successo**</sys:String>
+    <sys:String x:Key="ProductKey">Ultimi 5 caratteri del product key installato: </sys:String>
+    <sys:String x:Key="UninstallingKey">Disinstallazione product key per: </sys:String>
+    <sys:String x:Key="ILicense">Installazione licenza di Office: </sys:String>
+    <sys:String x:Key="ILicenseSuccess">Licenza di Office installata con successo.</sys:String>
+    <sys:String x:Key="InstallationID">ID Installazione:</sys:String>
+    <sys:String x:Key="SKMSEvent">Ricerca eventi di attivazione KMS: </sys:String>
+    <sys:String x:Key="SIAEvent">Ricerca eventi dei fallimenti di attivazione Internet: </sys:String>
+    <sys:String x:Key="NoKMSEvent">Nessun evento di attivazione KMS trovato: </sys:String>
+    <sys:String x:Key="NoIAEvent">Nessun evento di fallimento trovato: </sys:String>
+    <sys:String x:Key="NoEvents">Nessun evento trovato.</sys:String>
+    <sys:String x:Key="SuccessEvent">Evento successo dell'attivazione: </sys:String>
+    <sys:String x:Key="FailureEvent">Evento fallimento dell'attivazione: </sys:String>
+    <sys:String x:Key="ProductKeyNotFound">Product key non tovato</sys:String>
+    <sys:String x:Key="NotFound">Non trovato.</sys:String>
+    <sys:String x:Key="NotLicenseFound">Nessuna licenza trovata.</sys:String>
+    <sys:String x:Key="InfoOnly"> (solo a scopo informativo poiché lo stato è concesso in licenza)</sys:String>
+    
+    <sys:String x:Key="VLActivationType">Configurazione Tipo Attivazione: </sys:String>
+    <sys:String x:Key="ActRecent">Informazioni sul client di attivazione riuscita più recente: </sys:String>
+    <sys:String x:Key="KMSDNS">Nome macchina KMS da DNS: </sys:String>
+    <sys:String x:Key="ADInfoAOName">Nome Oggetto Attivazione: </sys:String>
+    <sys:String x:Key="ActivationInterval">Intervallo Attivazione: </sys:String>
+    <sys:String x:Key="RenewalInterval">Intervallo Rinnovo: </sys:String>
+    <sys:String x:Key="IntervalMinutes">minuti</sys:String>
+    <sys:String x:Key="HostCaching">Caching host KMS: </sys:String>
+    <sys:String x:Key="HostCachingEnabled">Abilitato</sys:String>
+    <sys:String x:Key="HostCachingDisabled">Disabilitato</sys:String>
+    <sys:String x:Key="HostRegOverride">Macchina KMS: </sys:String>
+    <!-- Toolbox Page -->
+    <sys:String x:Key="CommonTools">Strumenti Comuni</sys:String>
+    <sys:String x:Key="ConvertDocuments">Converti Documenti</sys:String>
+    <sys:String x:Key="RepairTools">Strumenti di Riparazione</sys:String>
+    <sys:String x:Key="ToolboxSave">Salva</sys:String>
+    <sys:String x:Key="ToolboxStart">Avvia</sys:String>
+    <sys:String x:Key="ToolboxRepair">Ripara</sys:String>
+    <!-- Common Tools -->
+    <sys:String x:Key="ToolboxChangeChannel">Cambia Canale Aggiornamenti di Office</sys:String>
+    <sys:String x:Key="ToolboxChangeChannelDescription">Supporto per selezionare altri canali o HTTP personalizzati, percorsi locali. Dopo aver salvato le impostazioni, verifica la presenza di aggiornamenti nell'applicazione Office.</sys:String>
+    <sys:String x:Key="ToolboxChangeOwner">Cambia Proprietario del Prodotto Office</sys:String>
+    <sys:String x:Key="ToolboxChangeOwnerDescription">Il nome viene visualizzato nella pagina dell'account dell'applicazione Office solo se Office utilizza la licenza corretta.&#x000A;&#x000A;Per cambiare il proprietario di un prodotto specifico, utilizza questo formato: [IDProdotto]:[Nome]</sys:String>
+    <sys:String x:Key="ToolboxChangeOwnerName">Nome:</sys:String>
+    <sys:String x:Key="ToolboxCheckVersion">Richiesta sulla Versione di Office</sys:String>
+    <sys:String x:Key="CheckVersionCreatedTimeUTC">Ora Creazione (UTC):</sys:String>
+    <sys:String x:Key="QueryErrorCode">Informazioni Codice Errore della Richiesta</sys:String>
+    <sys:String x:Key="QueryErrorCodeDescription">Il codice di errore di solito inizia con '0x'. Esempio: 0x2 oppure 0x80070002.</sys:String>
+    <sys:String x:Key="ToolboxCheckKMS">Controllo Stato KMS</sys:String>
+    <sys:String x:Key="ToolboxCheckKMSDescription">Separa ogni KMS con virgola oppure nuova linea, puoi anche aggiungere una porta. Quando l'attivazione viene visualizzata correttamente, significa che il server è disponibile.</sys:String>
+    <sys:String x:Key="CheckKMSConncetionSuccessful">Connection succeeded, but activation test failed.</sys:String>
+    <sys:String x:Key="CheckKMSConncetionFailed">Connection failed!</sys:String>
+    <sys:String x:Key="CheckKMSActivationSuccessful">Connessione riuscita, ma test di attivazione non riuscito.</sys:String>
+    <sys:String x:Key="ToolboxCollectLog">Collect Office Installer Logs</sys:String>
+    <sys:String x:Key="ToolboxCollectLogDescription">Raccogli i registri del programma di installazione di Office.</sys:String>
+    <!-- Repair Tools -->
+    <sys:String x:Key="ToolboxRemoveOffice">Rimuovi Office</sys:String>
+    <sys:String x:Key="ToolboxRODescription">Ciò rimuoverà componenti, file e registri relativi a Office. Se la pulizia non riesce, prova ancora qualche volta o fallo in un altro modo.&#x000A;&#x000A;Nota: questa funzionalità deve essere utilizzata solo se non è possibile rimuovere correttamente Office.</sys:String>
+    <sys:String x:Key="ToolboxRemoveViaOfficial">Rimuovi Office utilizzando gli strumenti ufficiali</sys:String>
+    <sys:String x:Key="ToolboxRemoveViaOfficeToolPlus">Rimuovi Office utilizzando Office Tool Plus</sys:String>
+    <sys:String x:Key="ToolboxRemoveUWPOffice">Rimovi installazione delle app Microsoft Store di Office</sys:String>
+    <sys:String x:Key="ToolboxRemoveOfficeDone">Fine della rimozione di Office.</sys:String>
+    <sys:String x:Key="ToolboxRepairOfficeDocumentIcon">Ripara icone documenti di Office</sys:String>
+    <sys:String x:Key="ToolboxRepairODIDescription">Questo ripristina l'associazione dei documenti di Office. Fatto ciò, dovrai anche utilizzare la Correzione Rapida di Office.</sys:String>
+    <sys:String x:Key="ToolboxRepairActivation">Ripara Attivazione di Office</sys:String>
+    <sys:String x:Key="ToolboxRepairActivationDescription">Questo reimposta la configurazione del servizio Software Protection e ricostruisce il file di attivazione su Windows Insider. Si applica a "Si è verificato un errore sconosciuto" o "Utilizzo della licenza non riuscito (0xC004E015)" durante l'attivazione di Office.</sys:String>
+    <sys:String x:Key="ToolboxRepairVBS">Ripara associazioni ai file VBS</sys:String>
+    <sys:String x:Key="ToolboxRepairVBSDescription">TQuesto ripristina l'associazione dei file VBS e si applica all'attivazione di Office con il prompt "Non esiste un motore di script per l'estensione del file ".vbs"".</sys:String>
+    <sys:String x:Key="ToolboxRepairVariables">Ripara Variabili di Sistema</sys:String>
+    <sys:String x:Key="ToolboxRepairVariablesDescription">Questo ripristina le variabili di sistema ai valori predefiniti. Non usarlo se non sei sicuro.</sys:String>
+    <sys:String x:Key="ToolboxRepairTemplates">Ripristina il modello di documento predefinito di Word</sys:String>
+    <sys:String x:Key="ToolboxRepairTemplatesDescription">Questo ricostruirà il modello predefinito di Word per visualizzare la [Modalità compatibile] quando viene creato un nuovo documento.</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettings">Ripristina le impostazioni di Office ai valori originali</sys:String>
+    <sys:String x:Key="ToolboxResetOfficeSettingsDescription">Questo ripristinerà le impostazioni di Office, incluse le impostazioni dell'applicazione, la cronologia dei file locali e i percorsi di salvataggio recenti. Nota: chiudere tutte le applicazioni di Office prima di procedere.</sys:String>
+    <!-- Convert Document -->
+    <sys:String x:Key="ConvertSourceFormat">Formato Ingresso:</sys:String>
+    <sys:String x:Key="ConvertOutputFormat">Formato Uscita:</sys:String>
+    <sys:String x:Key="ConvertSelectFile">Seleziona file</sys:String>
+    <sys:String x:Key="ConvertDeleteFile">Elimina il file originale dopo la riuscita della conversione.</sys:String>
+    <!-- Settings Panel -->
+    <sys:String x:Key="LanguageSettings">Lingua:</sys:String>
+    <sys:String x:Key="ThemeSettings">Tema:</sys:String>
+    <sys:String x:Key="SaveSettings">Salva impostazioni in locale.</sys:String>
+    <sys:String x:Key="DisplaySettings">Impostazioni Visualizzazione</sys:String>
+    <sys:String x:Key="SettingsTopmost">In Primo Piano</sys:String>
+    <sys:String x:Key="SettingsFontsize">Dimensione Carattere</sys:String>
+    <sys:String x:Key="SettingsTransparency">Trasparenza</sys:String>
+    <sys:String x:Key="SettingsBlurValue">Blur</sys:String>
+    <!-- About Page -->
+    <sys:String x:Key="AppInf">Informazioni sul Programma</sys:String>
+    <sys:String x:Key="CreatorInfo">Sviluppato da Yerong, basato su Office Deployment Tool.</sys:String>
+    <sys:String x:Key="Copyright">Copyright © 2016-{0} Yerong All rights reserved.</sys:String>
+    <sys:String x:Key="TrademarkInfo">Microsoft Office is a registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.</sys:String>
+    <sys:String x:Key="ServerProvider">Server Provider</sys:String>
+    <sys:String x:Key="Translator">Traduttori</sys:String>
+    <sys:String x:Key="BackgroundImageSource">Origine Immagine di Sfondo</sys:String>
+    <!-- Notification Panel -->
+    <sys:String x:Key="ClearNotifications">Pulisci Tutte le Notifiche</sys:String>
+    
+    <!-- Text about Textbox, notice to control the string length. -->
+    <sys:String x:Key="TextBlockCommand">> Scrivi qui il comando.</sys:String>
+    <sys:String x:Key="TextBlockResources">Locale, rete, oppure percorso HTTP</sys:String>
+        
+    <!-- Task Message -->
+    <sys:String x:Key="Task_PreparingDownload">Preparazione al download di Office.</sys:String>
+    <sys:String x:Key="Task_DeployClickToRun">Installazione Click-to-Run</sys:String>
+    <sys:String x:Key="Task_ODT">Office Deployment Tool è in esecuzione, attedere prego.</sys:String>
+    <sys:String x:Key="Task_OSPP">OSPP è in esecuzione, attedere prego.</sys:String>
+    <sys:String x:Key="Task_CheckVersion">Richiesta infromazioni sulla versione di Office.</sys:String>
+    <sys:String x:Key="Task_CheckKMS">Test host KMS.</sys:String>
+    <sys:String x:Key="Task_CollectLog">Raccolta dei registri del programma di installazione di Office.</sys:String>
+    <sys:String x:Key="Task_CleanOffice">Pulizia di Office.</sys:String>
+    <sys:String x:Key="Task_ConvertDocument">Conversione documento di Office.</sys:String>
+        
+    <!-- Question Message -->
+    <sys:String x:Key="QuesUpdateReady">Aggiornamento Pronto</sys:String>
+    <sys:String x:Key="QuesUpdateNow">Ci vogliono solo pochi secondi, riavviare l'applicazione ora?</sys:String>
+    <sys:String x:Key="QuesExit">Office Tool Plus è in esecuzione, confermi l'uscita?</sys:String>
+    <sys:String x:Key="QuesInstallation">Pronto per installare Office?</sys:String>
+    <sys:String x:Key="QuesConfiguration">Visualizza il codice per la configurazione dei dettagli, la configurazione di base è corretta?</sys:String>
+    <sys:String x:Key="QuesDeleteFiles">Eliminare la lingua {0}?</sys:String>
+    <sys:String x:Key="QuesInstallLicenses">Non è possibile visualizzare le informazioni di attivazione in Office dopo aver installato una licenza di Office, ma è possibile visualizzare le informazioni o attivare Office tramite Office Tool Plus. Continuare?</sys:String>
+    <sys:String x:Key="QuesClearLicenses">Disinstallare tutte le licenze significa che dovrai reinstallare le licenze dopo questa operazione. Vuoi continuare?</sys:String>
+    <sys:String x:Key="QuesClearActivation">Disinstallare tutte le chiavi e le licenze? Sarà necessario reinstallare le licenze e attivare Office dopo questa operazione.</sys:String>
+    <sys:String x:Key="QuesClearKeys">Disinstallare tutte le chiavi?</sys:String>
+    <sys:String x:Key="QuesCleanOffice">Sicuro di voler pulire Office? Una volta avviata, questa operazione non può essere interrotta</sys:String>
+
+    <!-- Info Message -->
+    <sys:String x:Key="InfoPermission">Office Tool Plus è avviato con i normali privilegi, alcune funzionalità non saranno disponibili.</sys:String>
+    <sys:String x:Key="InfoUpdate">Stai usando l'ultima versione di Office Tool Plus.</sys:String>
+    <sys:String x:Key="InfoNoConfigured">Nessuna modifica è stata rilevata.</sys:String>
+    <sys:String x:Key="InfoAllExist">Non è necessario effettuare il download, tutti i file sono già esistenti.</sys:String>
+    <sys:String x:Key="InfoSetupExited">Office Deployment Tool è terminato normalmente.</sys:String>
+    <!-- Example: Installing iSlide, please wait. -->
+    <sys:String x:Key="InfoInstallingApp">Installazione {0}, attendere prego.</sys:String>
+    <sys:String x:Key="InfoInstallationComplete">L'installazione è stata completata.</sys:String>
+    <sys:String x:Key="InfoInstallationFailed">L'installazione è fallita.</sys:String>
+    
+    <!-- Success Message -->
+    <sys:String x:Key="SuccessDownloadInstallation">I file di installazione sono stati scaricati.</sys:String>
+    <sys:String x:Key="SuccessSave">Salvato con successo.</sys:String>
+    <sys:String x:Key="SuccessRepair">La riparazione ha avuto successo.</sys:String>
+
+    <!-- Error Message -->
+    <sys:String x:Key="ErrRunning">Office Tool Plus è avviato.</sys:String>
+    <sys:String x:Key="ErrGettingInfo">Il contenuto non è disponibile, riprovare più tardi.</sys:String>
+    <sys:String x:Key="ErrReadingInfo">Errore nella lettura delle informazioni di Office.</sys:String>
+    <sys:String x:Key="ErrSavingInfo">Errore nel salvataggio delle informazioni di Office.</sys:String>
+    <sys:String x:Key="ErrSetProxy">Impossibile impostare il Proxy!</sys:String>
+    <sys:String x:Key="ErrGetVersion">Impossibile ottenere le informazioni sulla versione, riprova o utilizza Office Deployment Tool.</sys:String>
+    <sys:String x:Key="ErrCreateISO">Impossibile trovare l'installazione di Office nella cartella principale di Office Tool Plus, scaricare prima i file di installazione! Oppure spostare i file di installazione nel perorso corretto.</sys:String>
+    <sys:String x:Key="ErrInput">Immesso in modo errato.</sys:String>
+    <sys:String x:Key="ErrSetupExited">Si è verificato un errore con Office Deployment Tool.</sys:String>
+    <sys:String x:Key="ErrAppNotFound">{0} non è stato trovato sul computer, conferma se è stata installata l'ultima versione di Office.</sys:String>
+
+    <!-- Error Message about Thunder -->
+    <sys:String x:Key="DownloadErrorTitle">Errore Download</sys:String>
+    <sys:String x:Key="ThunderErrorStart">Impossibile avviare l'attività.</sys:String>
+    <sys:String x:Key="ThunderErrorStop">Impossibile mettere in pausa l'attività.</sys:String>
+    <sys:String x:Key="ThunderErrorExit">impossibile uscire da Thunder.</sys:String>
+    <sys:String x:Key="ThunderErrorPreparation">Impossibile inizializzare Thunder..</sys:String>
+    <sys:String x:Key="ThunderErrorUnknown">Errore download sconosciuto.</sys:String>
+    <sys:String x:Key="ThunderErrorCreate">Impossibile creare il file.</sys:String>
+    <sys:String x:Key="ThunderErrorDelete">Impossibile eliminare il file.</sys:String>
+    <sys:String x:Key="ThunderErrorFileHash">Impossibile verficare il file.</sys:String>
+    <sys:String x:Key="ThunderErrorPieceHash">Impossibile verficare il file.</sys:String>
+    <sys:String x:Key="ThunderErrorRead">Impossibile leggere il file.</sys:String>
+    <sys:String x:Key="ThunderErrorRename">Impossibile rinominare il file.</sys:String>
+    <sys:String x:Key="ThunderErrorWrite">Impossibile scrivere il file.</sys:String>
+    <sys:String x:Key="ThunderErrorDownInvalid">indirizzo non valido.</sys:String>
+    <sys:String x:Key="ThunderErrorNotIP">Nessun IP disponibile nel download HTTP.</sys:String>
+    <sys:String x:Key="ThunderErrorIDInvalid">TaskID non valido.</sys:String>
+    <sys:String x:Key="ThunderErrorProxyAuthTypeFailed">Autenticazione Proxy fallita.</sys:String>
+    <sys:String x:Key="ThunderErrorProxyAuthTypeUnknown">Tipo Proxy sconosciuto.</sys:String>
+    <sys:String x:Key="ThunderErrorTimeOut">Timeout attività.</sys:String>
+    <sys:String x:Key="ThunderErrorCrashed">Il motore dei download Thunder si è bloccato.</sys:String>
+    <sys:String x:Key="ThunderErrorCancel">Attività annullata.</sys:String>
+</ResourceDictionary>

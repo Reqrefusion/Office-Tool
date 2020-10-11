@@ -1,79 +1,77 @@
-﻿# Office Tool Plus
+﻿#
 
-[⬅ Back](https://github.com/YerongAI/Office-Tool)
+<p align="center">
+<img alt="Office Tool Plus Logo" src="https://otp.landian.vip/static/images/logo.png"/>
+</p>
 
-Office Tool Plus est un outil de gestion, de téléchargement et d'installation d'Office.
+<p align="center">
+<a href="https://www.coolhub.top/" target="_blank"><img alt="Author" src="https://img.shields.io/badge/Author-Yerong-blue?style=flat-square"/></a>
+<img alt="Language" src="https://img.shields.io/badge/Language-C%23-green?style=flat-square"/>
+<a href="https://otp.landian.vip/" target="_blank"><img alt="Release" src="https://img.shields.io/github/v/release/YerongAI/Office-Tool?style=flat-square"/></a>
+<img alt="License" src="https://img.shields.io/github/license/YerongAI/Office-Tool?style=flat-square"/>
+</p>
 
-Office Tool Plus est basé sur Microsoft [Office Deployment Tool](https://docs.microsoft.com/fr-fr/DeployOffice/overview-of-the-office-2016-deployment-tool). Vous pouvez personnaliser configurer votre installation Office et télécharger des fichiers d'installation pour installer Office sans Internet.
+> Un outil puissant et utile pour les déploiements Office.
 
-De plus, vous pouvez gérer votre Office installé, ajouter des packs linguistiques ou personnaliser désinstaller Office..
+Prend en charge le déploiement personnalisé et l’activation des produits suivants:
+
+- Office 2016, 2019 & 365
+- Visio 2016, 2019 & Plan en ligne 2
+- Project 2016, 2019 & Client de bureau en ligne
+
+Fonctions supplémentaires:
+
+- Prise en charge des 17 canaux d’Office, y compris la requête, le téléchargement et l’installation.
+- Modifications apportées à l’Office existant, y compris les ajouts et les suppressions de produits, d’applications, de modules linguistiques, etc.
+- Importation/exportation de profils XML.
+- Créer des fichiers ISO pour le partage ou l’installation hors connexion.
+- Installation de licences Office (édition convertie).
+- Nettoyage des licences et clés Office.
+- Prend en charge l’activation en ligne, l’activation par téléphone (activation hors connexion) et l’activation kms.
+- Réinitialiser/Suppression forcée d’Office.
+- Modification du canal de mise à jour d’Office sans réinstaller Office.
+- Conversion par lots de documents Office, basée sur l’API Office (version 8 uniquement).
+
+Components:
+
+- **[Outil de déploiement Office](https://docs.microsoft.com/fr-fr/deployoffice/overview-office-deployment-tool)**. Vous pouvez personnaliser configurer votre installation Office et télécharger des fichiers d'installation pour installer Office sans Internet.
+- **[OSPP](https://docs.microsoft.com/fr-fr/DeployOffice/vlactivation/tools-to-manage-volume-activation-of-office)** - Plate-forme de protection des logiciels Office.
+- **Thunder** - Les principaux moteurs pour télécharger Office.
+- **vlmcs** - Composants pour tester la disponibilité de KMS, *uniquement inclus dans la version complète*.
+
+## Configuration requise
+
+Windows 7 SP1, Windows 8 et Windows 10.
+Windows Server 2008 R2 SP1, Windows Server 2012 ou plus élevé.
+
+### Version 8
+
+- [Microsoft .NET Core 3.1 Desktop Runtime x86](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+
+*Note: Ce framework doit être installé sur tous les systèmes.*
+
+### Version 7
+
+[Installateur Web](http://go.microsoft.com/fwlink/?LinkId=780597)
+
+[Installateur hors ligne](http://go.microsoft.com/fwlink/?LinkId=780601)
+
+[Packs de langues pour Microsoft .Net Framework 4.6.2](http://go.microsoft.com/fwlink/?LinkId=780604)
+
+*Note: Une version supérieure est intégrée à Windows 10 et ne nécessite pas d’installation supplémentaire.*
 
 ## Télécharger Office Tool Plus
 
 [Site officiel](https://otp.landian.vip/)
 
-[Miroir de téléchargement](https://delivery.yuntu.dev/office-tool/) par [云图小镇](https://www.yuntu.dev/)
-
-## Articles techniques
-
-[Options de configuration](https://docs.microsoft.com/fr-fr/DeployOffice/configuration-options-for-the-office-2016-deployment-tool)
+[Site de téléchargement](https://download.coolhub.top/)
 
 ## Démarrage rapide
 
-Aller à la page de déploiement, ajouter un produit que vous souhaitez installer, puis cliquez sur déployer pour démarrer votre installation.
+Please refer to [Office Tool Plus Quick Start](https://github.com/YerongAI/Office-Tool/wiki/Office-Tool-Plus-Quick-Start)
 
-## Légitimité de l'application
+## À propos
 
-Office Tool Plus est basé sur Microsoft [Office Deployment Tool](https://docs.microsoft.com/fr-fr/DeployOffice/overview-of-the-office-2016-deployment-tool). Et nous avons ajouté certaines fonctions en fonction des besoins des utilisateurs.
+© 2016-2020 Yerong. Tous droits réservés.
 
-### À propos de Activer La fonction
-
-La fonction d'activation était basée sur ospp.vbs (Office Software Protect Platform) de Microsoft, toutes les opérations d'activation sont effectuées par ospp.vbs. Et afin de permettre aux utilisateurs de mieux comprendre OSPP, nous l'avons traduit (zh-cn, zh-tw).
-
-Vous pouvez consulter la description de l'OSPP dans ````"C:\Program Files\Microsoft Office\Office16\OSPP.HTM"```` (Office installé requis).
-
-## Merci aux collaborateurs
-
-- (ar-ps) العربية (الأراضي الفلسطينية) / Ibrahim
-- (de-de) Deutsch (Deutschland) / [Berny23](https://steamcommunity.com/id/Berny23)
-- (en-us) English (United States) / [Moedog](https://prprpr.love)
-- (es-es) Español (España, alfabetización internacional) / Xoseba
-- (fr-fr) Français (France) / Drake4478
-- (it-it) Italiano (Italia) / garf02
-- (ja-jp) 日本語 (日本) / 秋叶笙
-- (ko-kr) 한국어(대한민국) / [Jay Jang](https://github.com/yaeyaya)
-- (pl-pl) Polski (Polska) / JakubDriver
-- (pt-br) Português (Brasil) / [Hélio de Souza](https://sway.office.com/RVue6qySNJ2DzYrs?ref=Link)
-- (ru-ru) русский (Россия) - `(Not updated)` / Долматов Алексей
-- (tr-tr) Türkçe (Türkiye) / Turan Furkan Topak
-- (vi-vn) Tiêng Việt (Việt Nam) / phuocding
-- (zh-cn) 简体中文 (中国) / **官方语言 (Official language)**
-- (zh-tw) 繁體中文 (台灣) / [Yi Chi](https://github.com/chiyi4488)
-
-## Aide à la localisation
-
-Nous encourageons tout le monde à aider à la localisation. Ce qui suit est la façon de faire.
-
-1. Fourche ce référentiel
-
-2. Traduire ````zh-cn.xaml```` à votre propre langue, puis l'enregistrer comme ````zh-tw.xaml````
-
-3. Copiez-le sur le droit chemin, comme OfficeToolPlus/Language/zh-tw.xaml
-
-4. Faites une demande de traction.
-
-### Comment tester votre traduction
-
-1. Enregistrer votre fichier de traduction à un chemin, comme ````D:\Date\zh-cn.xaml````.
-
-2. Ouvrir l'application.
-
-3. Aller à la page paramètres, cliquez sur ````Charger le fichier de localisation.````
-
-4. Sélectionner le fichier que vous venez d'enregistrer.
-
-Après cela, l'application chargera votre traduction, si vous ajoutez une nouvelle traduction à l'application, elle s'affichera: n'a pas réussi à se connecter au serveur. C'est normal.
-
-### Quoi de plus
-
-````Pour chaque traducteur, nous leur donnerons une application Admin qui vous permettra de modifier l'annonce et de télécharger une image de fond.```` [Envoyer un e-mail](mailto:yerong@coolhub.top) ````à nous.````
+> Blog [@Yerong の小窝](https://www.coolhub.top/) · GitHub [@YerongAI](https://github.com/YerongAI) · Telegram [@Office Tool Plus](https://t.me/otp_channel)

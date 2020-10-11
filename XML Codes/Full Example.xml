@@ -34,12 +34,11 @@
       <Language ID="MatchPreviousMSI" />
       <Language ID="en-us" />
       <Language ID="zh-cn" />
-      <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="OneDrive" />
     </Product>
   </Add>
   <Display Level="None" AcceptEULA="TRUE" />
   <Logging Level="Standard" Path="%temp%" />
+  <Property Name="PinIconsToTaskbar" Value="FALSE" />
   <Property Name="AUTOACTIVATE" Value="1" />
   <Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
   <Property Name="SharedComputerLicensing" Value="1" />
